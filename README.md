@@ -1,5 +1,5 @@
 # README
-this is repository for (iqbwl.github.io)[iqbwl.github.io] & image hosting for [iqbal.id](https://iqbal.id)
+this is repository for (iqbwl.github.io)[https://iqbwl.github.io] & image hosting for [iqbal.id](https://iqbal.id)
 
 Tools
 - [Sublime](https://www.sublimetext.com/)
