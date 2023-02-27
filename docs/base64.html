@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var myNameIs = "babu";
+ 
+            document.getElementById("txtarea_1").value = window.atob(myNameIs);
+            document.getElementById("txtarea_2").value = window.btoa(document.getElementById("txtarea_1").value);
+        </script>
+    </head>
+    <body>
+        <textarea id="txtarea_1"></textarea>
+        <textarea id="txtarea_2"></textarea>
+    </body>
+</html>
