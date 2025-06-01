@@ -16,6 +16,26 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  
+  <style>
+    .archive-notice {
+      background-color: #fff3cd; /* Light yellow, common for notices */
+      color: #856404; /* Dark yellow/brown text, good contrast */
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #ffeeba; /* Slightly darker border */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box; /* Ensures padding and border don't add to width */
+      z-index: 1000; /* High z-index to appear on top */
+    }
+    .archive-notice p {
+      margin: 0; /* Remove default paragraph margin */
+      font-weight: bold;
+    }
+  </style>
+  
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6071159699780780"
      crossorigin="anonymous"></script>
 </head>
