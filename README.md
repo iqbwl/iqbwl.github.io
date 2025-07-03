@@ -1,4 +1,4 @@
-## iqbwl.com
+## iqbwl.github.io
 
 Jekyll using no-style-please theme
 
