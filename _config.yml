@@ -15,6 +15,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+jekyll_admin:
+  hidden_links:
+    - datafiles
+    - configuration
+  homepage: "posts"
+
 sass:
   quiet_deps: true
   silence_deprecations: [import]
@@ -72,8 +78,14 @@ disqus:
 exclude:
   - .gitignore
   - .jekyll-cache
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - .sass-cache
-  - vendor
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
