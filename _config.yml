@@ -6,14 +6,13 @@ author:
 url: "https://iqbwl.com"
 
 description: >
-  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  Scattered thoughts, simple stories, and ideas — sometimes strange, always honest. Welcome to my personal blog!
 
-theme: minima
+#theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 jekyll_admin:
   hidden_links:
@@ -43,12 +42,13 @@ minima:
   #   If you wish to link only specific pages in the site-navigation, use this and list
   #   the `path` property (as represented via Liquid) of the pages in the order they
   #   should be rendered.
-  nav_pages:
+  header_pages:
     - about.md
+  #nav_pages:
+  #  - about.md
 
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: true
-  hide_site_feed_link: true
 
   # Minima date format.
   #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
@@ -71,6 +71,9 @@ minima:
     - title: Telegram
       icon: telegram
       url: "https://t.me/iqbwlx"
+    - title: Ethereum
+      icon: ethereum
+      url: "https://etherscan.io/address/iqbwl.eth"
 
 disqus:
   shortname: iqbwl
