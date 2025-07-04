@@ -7,3 +7,9 @@
   to = "https://iqbwl.github.io"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://iqbwl.netlify.app/*"
+  to = "https://iqbwl.com/:splat"
+  status = 301
+  force = true
