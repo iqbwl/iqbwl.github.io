@@ -8,7 +8,7 @@ url: "https://iqbwl.com"
 description: >
   Scattered thoughts, simple stories, and ideas — sometimes strange, always honest. Welcome to my personal blog!
 
-#theme: minima
+theme: minima
 
 plugins:
   - jekyll-feed
@@ -43,6 +43,7 @@ minima:
   #   the `path` property (as represented via Liquid) of the pages in the order they
   #   should be rendered.
   header_pages:
+    - archive.md
     - about.md
   #nav_pages:
   #  - about.md
