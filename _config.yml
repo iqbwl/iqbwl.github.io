@@ -45,9 +45,6 @@ minima:
   header_pages:
     - archive.markdown
     - about.markdown
-  #nav_pages:
-  #  - archive.markdown
-  #  - about.markdown
 
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: true
@@ -95,3 +92,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - netlify.toml
+  - public/
+
+destination: ./public
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+port: 4000
+host: 127.0.0.1
