@@ -2,10 +2,6 @@
   publish = "_site"
   command = "bundle exec jekyll build"
 
-[build.environment]
-  JEKYLL_ENV = "production"
-  RUBY_VERSION = "3.2.3" # Sesuaikan dengan versi Ruby yang kamu pakai
-
 [[redirects]]
   from = "/archive"
   to = "https://iqbwl.github.io"

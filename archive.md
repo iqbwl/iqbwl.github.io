@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs
-permalink: /docs/
+title: Archive
+permalink: /archive/
 ---
-Docs
+Archive
