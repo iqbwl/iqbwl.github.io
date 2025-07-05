@@ -11,6 +11,6 @@ fi
 echo "📤 Committing and pushing to GitHub..."
 git add .
 git commit -m "$1"
-git push origin main
+git push gh master
 
 echo "✅ Selesai: Perubahan dikirim ke GitHub dan Netlify akan membuild otomatis."
