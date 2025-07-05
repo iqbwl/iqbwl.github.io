@@ -66,8 +66,8 @@ exclude:
   - vendor/ruby/
   - netlify.toml
   - public/
-  - serve-dev.sh
-  - serve-prod.sh
+  - serve_dev.sh
+  - serve_prod.sh
   - deploy.sh
 
 destination: ./public
