@@ -15,11 +15,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+show_drafts: true
+
 jekyll_admin:
   hidden_links:
     - datafiles
     - configuration
   homepage: "posts"
+  
 
 sass:
   quiet_deps: true
