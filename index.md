@@ -2,4 +2,4 @@
 layout: home
 ---
 
-> **Hey there, welcome to my personal blog! Feel free to browse through my archive at [iqbwl.github.io](https://iqbwl.github.io).**
+> **Welcome** — and if you're curious about the older stuff, my blog archive lives at [iqbwl.github.io](http://iqbwl.github.io).
