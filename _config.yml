@@ -21,6 +21,22 @@ jekyll_admin:
 
 show_drafts: true
 
+# front matter
+defaults:
+  - scope:
+      path: ""        # berlaku untuk semua file
+      type: "posts"   # atau "pages"
+    values:
+      layout: "post"
+      author: "iqbwl"
+      categories: [""]
+  - scope:
+      path: ""        # untuk semua halaman
+      type: "pages"
+    values:
+      layout: "page"
+      author: "iqbwl"
+
 sass:
   quiet_deps: true
   silence_deprecations: [import]
