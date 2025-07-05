@@ -2,3 +2,11 @@
   Use this to insert markup before the closing body tag.
   For example, scripts that need to be executed after the document has finished loading.
 {% endcomment %}
+<script>
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    if (link.hostname !== location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+</script>
