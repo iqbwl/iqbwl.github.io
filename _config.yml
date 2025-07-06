@@ -50,21 +50,25 @@ minima:
   show_excerpts: true
   date_format: "%Y-%m-%d"
   social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/iqbwl"
+    
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/iqbwl/"
+
     - title: X
       icon: x-twitter
       url: "https://x.com/iqbwlbit"
 
-    - title: Bluesky
-      icon: bluesky
-      url: "https://bsky.app/profile/iqbwl.com"
-
-    - title: GitHub
-      icon: github
-      url: "https://github.com/iqbwl"
-
     - title: Telegram
       icon: telegram
       url: "https://t.me/iqbwlx"
+
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/iqbwl.com"
 
     - title: Ethereum
       icon: ethereum
