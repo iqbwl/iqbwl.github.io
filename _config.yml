@@ -24,14 +24,14 @@ show_drafts: true
 # front matter
 defaults:
   - scope:
-      path: ""        # berlaku untuk semua file
-      type: "posts"   # atau "pages"
+      path: ""
+      type: "posts"
     values:
       layout: "post"
       author: "iqbwl"
       categories: [""]
   - scope:
-      path: ""        # untuk semua halaman
+      path: ""
       type: "pages"
     values:
       layout: "page"
@@ -43,10 +43,11 @@ sass:
 
 permalink: /:slug
 
+header_pages:
+  - about.md
+
 minima:
   skin: classic
-  header_pages:
-    - about.md
   show_excerpts: true
   date_format: "%Y-%m-%d"
   social_links:
