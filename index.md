@@ -2,6 +2,4 @@
 layout: home
 ---
 
-<div style="text-align: center;">
-	<strong><em>Welcome — Just a place to drop thoughts before they disappear.</em></strong>
-</div>
+### ***Welcome** — A little corner of the internet for things I don't want to forget.*
