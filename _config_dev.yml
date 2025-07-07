@@ -1,2 +1,4 @@
 show_drafts: true
 url: "http://localhost:4000"
+port: 4000
+host: 10.1.1.2
