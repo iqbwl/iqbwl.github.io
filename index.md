@@ -2,4 +2,6 @@
 layout: home
 ---
 
-> **Welcome** — and if you're curious about the older stuff, my blog archive lives at [iqbwl.github.io](http://iqbwl.github.io).
+<div style="text-align: center;">
+	<strong><em>Welcome — Just a place to drop thoughts before they disappear.</em></strong>
+</div>
