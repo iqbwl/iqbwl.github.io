@@ -1,7 +1,7 @@
 title: Iqbwl
 author:
   name: Iqbwl
-  email: open@iqbwl.com
+  email: iqbwl@iqbwl.com
 
 url: "https://iqbwl.com"
 
@@ -47,7 +47,7 @@ header_pages:
   - about.md
 
 minima:
-  skin: classic
+  skin: auto
   show_excerpts: true
   date_format: "%Y-%m-%d"
   social_links:
