@@ -3,15 +3,10 @@ layout: page
 title: About
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Some things are too small to publish, but too useful to forget.
+That’s what this blog is for — bits, notes, reminders, and half-finished thoughts I wanted to keep somewhere.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+There’s no grand vision. I’m not trying to teach or impress.
+Most of this is just me thinking out loud — but if you find something helpful, I’m glad you did.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+You’re welcome to look around. It’s messy, but it’s mine.
