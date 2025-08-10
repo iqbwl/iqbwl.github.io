@@ -71,7 +71,7 @@ services:
     container_name: vaultwarden
     restart: always
     environment:
-      # DOMAIN: "https://vaultwarden.example.com"  # ganti dengan nama domain yang akan kamu inginkan saat menggunakan Nginx reverse proxy
+      DOMAIN: "https://vaultwarden.example.com"  # ganti dengan nama domain yang akan kamu gunakan saat menggunakan Nginx reverse proxy
       SIGNUPS_ALLOWED: "true" # ubah jadi "false" kalau kamu sudah selesai setup user Vaultwarden
     volumes:
       - ./vw-data:/data # kamu bisa ganti "vw-data" dengan nama directory yang kamu mau
