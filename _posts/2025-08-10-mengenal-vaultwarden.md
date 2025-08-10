@@ -13,7 +13,6 @@ Pernah gak kamu punya banyak banget akun di internet, sampai bingung yang mana p
     src="/static/img/vaultwarden/vaultwarden-logo.svg" 
     alt="Vaultwarden Logo"
     caption="sc: github.com/dani-garcia/vaultwarden"
-    width="600px"
 %}
 
 Secara sederhana, Vaultwarden adalah versi ringan dan open-source dari Bitwarden, sebuah password manager populer. Bedanya, kalau Bitwarden biasanya digunakan di layanan cloud resmi mereka, Vaultwarden ini bisa kamu jalankan sendiri di server pribadi. Jadi semua data gak disimpan di server pihak lain, melainkan aman di server milikmu (home lab, atau bisa juga vps yang kamu sewa). Hemat resource, hemat biaya, tetapi tetap bertenaga.
@@ -32,7 +31,6 @@ Aku paham, membuat password yang berbeda-beda untuk setiap akun itu terasa merep
     src="/static/img/vaultwarden/same-password-everywhere-meme.webp" 
     alt="Grandma Finds The Internet"
     caption="sc: officesolutionsit.com.au"
-    width="600px"
 %}
 
 
