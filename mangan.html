@@ -243,6 +243,114 @@
         .right {
             text-align: right
         }
+
+        /* ====== RESPONSIVE ====== */
+
+        /* tablet down */
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+            }
+
+            .panel {
+                padding: 14px;
+            }
+
+            .grid.g-2 {
+                grid-template-columns: 1fr;
+            }
+
+            /* Diskon & Biaya jadi bertumpuk */
+
+            /* Header "Pesanan" — tombol tidak nempel pinggir */
+            .panel-header {
+                padding: 0 8px;
+            }
+
+            /* Kartu peserta */
+            .person-top {
+                grid-template-columns: 44px 1fr;
+                /* avatar + input nama */
+                gap: 10px;
+            }
+
+            /* Tombol "Tambah +" & "Reset" turun ke baris baru, rata kiri */
+            .person-actions {
+                grid-column: 1 / -1;
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+
+            /* Baris item: pecah jadi 2 kolom */
+            .item-row {
+                grid-template-columns: 1fr 1fr;
+                /* [Nama item] di baris sendiri, [Harga][Qty] di bawahnya */
+                gap: 12px;
+            }
+
+            .item-row> :nth-child(1) {
+                grid-column: 1 / -1;
+            }
+
+            /* nama item full width */
+            .item-row> :nth-child(4) {
+                justify-self: end;
+                /* tombol X rapih di kanan */
+                width: 48px;
+                padding: 10px;
+                /* jaga ukuran tap target */
+            }
+
+            /* Diskon row: 2 kolom + tombol hapus */
+            .discount-row {
+                grid-template-columns: 1fr 1fr auto;
+                gap: 12px;
+            }
+        }
+
+        /* ponsel kecil */
+        @media (max-width: 420px) {
+
+            html,
+            body {
+                font-size: 15px;
+            }
+
+            /* baca nyaman */
+            .container {
+                padding: 12px;
+            }
+
+            .panel {
+                padding: 12px;
+            }
+
+            .row {
+                gap: 8px;
+            }
+
+            /* item row satu kolom penuh, tombol X tetap di kanan */
+            .item-row {
+                grid-template-columns: 1fr;
+            }
+
+            .item-row> :nth-child(2),
+            .item-row> :nth-child(3) {
+                grid-column: 1 / -1;
+            }
+
+            .item-row> :nth-child(4) {
+                align-self: center;
+                justify-self: end;
+            }
+
+            /* tombol header orang melebar agar mudah diklik */
+            .person-actions .btn {
+                flex: 1 1 120px;
+            }
+        }
     </style>
 </head>
 
