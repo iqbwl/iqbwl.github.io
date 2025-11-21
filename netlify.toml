@@ -13,3 +13,15 @@
   to = "https://iqbwl.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/mangan"
+  to = "https://abc.web.id/mangan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mangan.html"
+  to = "https://abc.web.id/mangan"
+  status = 301
+  force = true
