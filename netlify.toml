@@ -16,12 +16,12 @@
 
 [[redirects]]
   from = "/mangan"
-  to = "https://abc.web.id/mangan"
+  to = "https://abc.web.id/urunan"
   status = 301
   force = true
 
 [[redirects]]
   from = "/mangan.html"
-  to = "https://abc.web.id/mangan"
+  to = "https://abc.web.id/urunan"
   status = 301
   force = true
