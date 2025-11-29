@@ -15,8 +15,8 @@
   force = true
   
 [[redirects]]
-  from = "https://iqbwl.com/*"
-  to = "https://abc.web.id/:splat"
+  from = "https://iqbwl.com/mangan"
+  to = "https://abc.web.id/tools/split-bill"
   status = 301
   force = true
   
