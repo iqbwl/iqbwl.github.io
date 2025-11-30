@@ -1,28 +1,32 @@
-title: Iqbwl
+# Site metadata
+title: Iqbwl.com       # Site title (used in header, SEO)
 author:
-  name: Iqbwl
-  email: iqbwl@iqbwl.com
+  name: Iqbwl          # Author name (used in posts, footer)
+  email: iqbwl@abc.web.id
 
 url: "https://iqbwl.com"
 
+# Site description for SEO
 description: >
-  Not everything needs a purpose. But here’s where I keep mine.
+  My digital notebook. I write about things I'm learning, problems I've solved, and random thoughts that seem worth keeping.
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Jekyll Admin configuration
 jekyll_admin:
   hidden_links:
-    - datafiles
-    - configuration
-  homepage: "posts"
+    - datafiles      # Hide datafiles from admin
+    - configuration  # Hide config from admin
+  homepage: "posts"  # Default to posts page
 
 show_drafts: true
 
-# front matter
+# Front matter defaults
 defaults:
+  # Posts defaults
   - scope:
       path: ""
       type: "posts"
@@ -30,6 +34,8 @@ defaults:
       layout: "post"
       author: "iqbwl"
       categories: ["uncategorized"]
+      comments: true  # Enable Disqus by default
+  # Pages defaults
   - scope:
       path: ""
       type: "pages"
@@ -37,50 +43,61 @@ defaults:
       layout: "page"
       author: "iqbwl"
 
+# SCSS compilation settings
 sass:
-  quiet_deps: true
-  silence_deprecations: [import]
+  quiet_deps: true              # Suppress dependency warnings
+  silence_deprecations: [import] # Silence @import deprecation warnings
+  style: compressed              # Minify CSS in production
 
 permalink: /:slug
 
+# Navigation menu
+# Supports both internal pages and external links
 header_pages:
-  - about.md
-
-minima:
-  skin: classic
-  show_excerpts: true
-  date_format: "%Y-%m-%d"
-  social_links:
-    - title: Telegram
-      icon: telegram
-      url: "https://t.me/iqbwx"
-
-    - title: Ethereum
-      icon: ethereum
-      url: "https://etherscan.io/address/iqbwl.eth"
+  - title: About
+    url: /about
+  # Example external link:
+  # - title: Portfolio
+  #   url: https://example.com
+  #   external: true
+  - title: Archive
+    url: /archive
+    external: true
+  - title: Tools
+    url: https://abc.web.id/tools
+    external: true
 
 disqus:
   shortname: iqbwl
 
+# Files and folders to exclude from build
 exclude:
+  # Git files
   - .gitignore
-  - .jekyll-cache
-  - README.md
-  - .sass-cache/
+  - .git/
+  # Jekyll cache
   - .jekyll-cache/
-  - gemfiles/
+  - .sass-cache/
+  # Documentation
+  - README.md
+  # Dependencies
   - Gemfile
   - Gemfile.lock
+  - gemfiles/
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  # Deployment
   - netlify.toml
-  - public/
+  - deploy.sh
   - serve_dev.sh
   - serve_prod.sh
-  - deploy.sh
+  # Build output
+  - public/
+  # IDE
+  - .vscode/
 
 destination: ./public
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"

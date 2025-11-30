@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+// Mixins for media queries and relative font sizing
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: #{$ratio}rem;
+}
+
+// Clearfix
+%clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// Vertical rhythm
+%vertical-rhythm {
+    margin-bottom: $spacing-unit * .5;
+}

@@ -1,12 +1,30 @@
 ---
 layout: page
 title: About
+permalink: /about
 ---
 
-Some things are too small to publish, but too useful to forget.
-That’s what this blog is for — bits, notes, reminders, and half-finished thoughts I wanted to keep somewhere.
+Hey there! This is my digital notebook.
 
-There’s no grand vision. I’m not trying to teach or impress.
-Most of this is just me thinking out loud — but if you find something helpful, I’m glad you did.
+I write about things I'm learning, problems I've solved, and random thoughts that seem worth keeping. It's not a tutorial site — just my way of organizing what's in my head.
 
-You’re welcome to look around. It’s messy, but it’s mine.
+Hope you find something interesting here.
+
+---
+
+## Built with
+
+- **Jekyll {{ jekyll.version }}** - Static site generator
+- **Custom theme** - Standalone, no dependencies
+- **Netlify** - Hosting and deployment
+
+---
+
+## Get in Touch
+
+If you'd like to reach out, feel free to contact me:
+
+- **Email**: [iqbwl@abc.web.id](mailto:iqbwl@abc.web.id)
+- **Telegram**: [@iqbwld](https://t.me/iqbwld)
+
+I usually respond within a day or two.

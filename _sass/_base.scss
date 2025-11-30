@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+html {
+    font-size: $base-font-size;
+}
+
+/**
+ * Reset some basic elements
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-wrap: break-word;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit * .5;
+}
+
+hr {
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+
+/**
+ * `main` element
+ */
+main {
+    display: block;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure>img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul,
+ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+
+    >ul,
+    >ol {
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Headings
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+/**
+ * Links
+ */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:visited {
+        color: $link-visited-color;
+    }
+
+    &:hover {
+        color: #004499;
+        text-decoration: underline;
+    }
+
+    .social-media-list &:hover {
+        text-decoration: none;
+
+        .username {
+            text-decoration: underline;
+        }
+    }
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $brand-color;
+    border-left: 4px solid $border-color-01;
+    padding-left: $spacing-unit * .5;
+    @include relative-font-size(1.125);
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+    i,
+    em {
+        font-style: normal;
+    }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-family: $code-font-family;
+    font-size: 0.9em;
+    background-color: #f6f8fa;
+    border-radius: 4px;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    >code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.highlight {
+    border-radius: 6px;
+    background: #f6f8fa;
+    padding: 1rem;
+    @extend %vertical-rhythm;
+
+    .highlighter-rouge & {
+        background: #f6f8fa;
+    }
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding: 0 $spacing-unit;
+    @extend %clearfix;
+}
+
+/**
+ * Icons
+ */
+.orange {
+    color: #f66a0a;
+}
+
+.grey {
+    color: #828282;
+}
+
+.svg-icon {
+    width: 1.25em;
+    height: 1.25em;
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-bottom;
+    overflow: visible;
+}
+
+/**
+ * Tables
+ */
+table {
+    margin-bottom: $spacing-unit;
+    width: 100%;
+    text-align: $table-text-align;
+    color: $table-text-color;
+    border-collapse: collapse;
+    border: 1px solid $table-border-color;
+
+    tr {
+        &:nth-child(even) {
+            background-color: $table-zebra-color;
+        }
+    }
+
+    th,
+    td {
+        padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
+    }
+
+    th {
+        background-color: $table-header-bg-color;
+        border: 1px solid $table-header-border;
+    }
+
+    td {
+        border: 1px solid $table-border-color;
+    }
+
+    @include media-query($on-laptop) {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}

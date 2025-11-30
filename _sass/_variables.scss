@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+// Typography
+$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$code-font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+// Spacing
+$spacing-unit: 30px !default;
+
+// Layout
+$content-width: 800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
+$on-medium: $on-palm !default;
+$on-large: $on-laptop !default;
+
+// Colors - Light mode (classic skin)
+$brand-color: #828282 !default;
+$brand-color-light: lighten($brand-color, 40%) !default;
+$brand-color-dark: darken($brand-color, 25%) !default;
+
+$site-title-color: $brand-color-dark !default;
+
+$text-color: #111111 !default;
+$background-color: #fdfdfd !default;
+$code-background-color: #eeeeff !default;
+
+$link-base-color: #2a7ae2 !default;
+$link-visited-color: darken($link-base-color, 15%) !default;
+$link-hover-color: $text-color !default;
+
+$border-color-01: $brand-color-light !default;
+$border-color-02: lighten($brand-color, 35%) !default;
+$border-color-03: $brand-color-dark !default;
+
+$table-text-color: lighten($text-color, 18%) !default;
+$table-zebra-color: lighten($brand-color, 46%) !default;
+$table-header-bg-color: lighten($brand-color, 43%) !default;
+$table-header-border: lighten($brand-color, 37%) !default;
+$table-border-color: $border-color-01 !default;
+
+// Table alignment
+$table-text-align: left !default;
