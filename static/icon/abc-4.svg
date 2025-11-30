@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 80" width="350" height="80" role="img" aria-label="Abc.web.id Icon Logo">
+  <g transform="translate(20, 40)">
+    <path d="M 0 20 L 20 -20 L 40 20 L 20 10 Z" fill="#6c5ce7" />
+    
+    <text x="60" y="10" font-family="'Verdana', sans-serif" font-size="34px" font-weight="bold" fill="#333333">
+      Abc<tspan fill="#6c5ce7">.</tspan>web<tspan fill="#6c5ce7">.</tspan>id
+    </text>
+  </g>
+</svg>
