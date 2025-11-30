@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 70" width="300" height="70" role="img" aria-label="Abc.web.id Signature Logo">
+  <text x="150" y="45" text-anchor="middle">
+    <tspan font-family="'Brush Script MT', 'Segoe Script', cursive" font-size="42px" fill="#E74C3C">Abc</tspan>
+    <tspan dx="5" font-family="Arial, sans-serif" font-weight="300" font-size="28px" fill="#555555">.web.id</tspan>
+  </text>
+    <circle cx="150" cy="60" r="3" fill="#E74C3C"/>
+</svg>
