@@ -8,6 +8,9 @@
 @import "base";
 @import "layout";
 
+// Import GitHub markdown CSS
+@import "github-markdown";
+
 // Syntax highlighting
 .highlight {
     .c {

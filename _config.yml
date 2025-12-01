@@ -60,8 +60,8 @@ header_pages:
   # - title: Portfolio
   #   url: https://example.com
   #   external: true
-  - title: Archive
-    url: /archive
+  - title: Archived Blog
+    url: https://iqbwl.github.io
     external: true
   - title: Tools
     url: https://abc.web.id/tools
