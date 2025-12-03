@@ -1,8 +1,8 @@
 ---
 title: Web Server
 layout: page
+author: iqbwl
 ---
-
 Web Server is software that functions to receive requests from users via a web client or browser, then it will be responded by providing display/output according to the request sent to the server.
 
 > A web server is computer software and underlying hardware that accepts requests via HTTP or its secure variant HTTPS. - [Wikipedia](https://en.wikipedia.org/wiki/Web_server)

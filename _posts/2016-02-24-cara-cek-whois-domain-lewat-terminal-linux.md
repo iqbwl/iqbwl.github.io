@@ -1,8 +1,11 @@
 ---
 title: Cara cek Whois Domain lewat Terminal Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Whois Record](/migrated/blog/img/whois.png)
 
 Biasanya orang-orang ngecek Whois domain lewat beberapa website seperti who.is, whois.domaintools.com, whois.pandi.id (.id only), whois.icann.org, whois.net, whois.com, whois.namecheckup.com dan masih banyak lagi.
@@ -13,7 +16,7 @@ Ok, langsung saja.
 
 Pertama install dulu whoisnya, tentunya lewat Terminal
 
-``` bash
+```bash
 sudo apt-get install whois
 ```
 ![Installasi](/migrated/blog/img/whois_1.png)

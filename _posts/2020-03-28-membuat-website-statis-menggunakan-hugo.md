@@ -1,8 +1,11 @@
 ---
 title: Membuat Website Statis menggunakan Hugo
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ## Requirements
 
 - **Git**

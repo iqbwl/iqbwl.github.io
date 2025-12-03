@@ -1,8 +1,11 @@
 ---
 title: Deploy Hugo ke Netlify
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ## Konfigurasi Netlify
 
 Buat konfigurasi Netlify pada repository terlebih dahulu.

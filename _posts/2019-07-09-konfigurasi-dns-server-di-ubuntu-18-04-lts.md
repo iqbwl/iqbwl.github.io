@@ -1,8 +1,11 @@
 ---
 title: Konfigurasi DNS Server Di Ubuntu 18.04 LTS
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 # DNS
 DNS (Domain Name System) adalah layanan yang menerjemahkan nama domain situs web seperti, contoh: `google.com` menjadi alamat IP (IP Address) sehingga pengguna internet bisa membuka situs tujuan dengan cepat.
 

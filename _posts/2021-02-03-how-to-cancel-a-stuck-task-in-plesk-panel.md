@@ -1,8 +1,11 @@
 ---
 title: How to Cancel a stuck task in Plesk Panel
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Connect ke Plesk via SSH.
 
 ```bash

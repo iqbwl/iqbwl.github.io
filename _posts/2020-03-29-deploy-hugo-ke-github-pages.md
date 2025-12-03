@@ -1,8 +1,11 @@
 ---
 title: Deploy Hugo ke Github Pages
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ## Buat Repositori
 
 Yang pertama adalah siapkan 2 repository GitHub, sebagai berikut:

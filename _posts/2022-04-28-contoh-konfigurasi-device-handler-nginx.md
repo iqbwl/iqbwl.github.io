@@ -1,8 +1,11 @@
 ---
 title: Contoh Konfigurasi Device Handler Nginx
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Berikut ini merupakan contoh konfigurasi device handler untuk Nginx.
 
 - Jika kita akses url website versi desktop melalui browser mobile, maka akan otomatis diarahkan ke versi mobile.

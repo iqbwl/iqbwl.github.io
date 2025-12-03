@@ -1,8 +1,11 @@
 ---
 title: Fix Error [1932] Table doesn't exist in engine
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Pada saat terdapat error **[1932] Table doesn't exist in engine**, backup database yang ada pada directory `/var/lib/mysql/` terlebih dahulu dengan mv atau copy ke directory lain.
 
 ```bash

@@ -1,8 +1,11 @@
 ---
 title: Cara mudah Merekam layar Desktop di Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Record My Desktop](/migrated/blog/img/record_my_desktop.png)
 
 Yap pastinya sobat sudah tahu gunanya Perekam layar Desktop bukan? ya itu lah :p . Ok langsung saja.

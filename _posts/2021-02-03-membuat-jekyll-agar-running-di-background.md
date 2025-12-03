@@ -1,8 +1,11 @@
 ---
 title: Membuat Jekyll agar running di background
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Secara default jekyll tidak bisa dijalankan sebagai daemon, jadi ada cara tersendiri untuk membuat jekyll berjalan dalam background.
 
 Berikut perintahnya:

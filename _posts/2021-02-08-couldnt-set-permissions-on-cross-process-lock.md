@@ -1,8 +1,11 @@
 ---
 title: Couldn't set permissions on cross-process lock
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Apache Error Permission
 
 ```bash

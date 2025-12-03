@@ -1,8 +1,11 @@
 ---
 title: Install Driver WiFi BCM43142 BlankOn X Tambora
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Langsung saja buka `sources.list` dan tambahkan repository berikut :
 
 ```bash

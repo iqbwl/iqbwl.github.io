@@ -1,8 +1,8 @@
 ---
 title: Change Git remote URL
 layout: page
+author: iqbwl
 ---
-
 Masuk ke repository terlebih dahulu, kemudian gunakan perintah berikut:
 
 ```bash

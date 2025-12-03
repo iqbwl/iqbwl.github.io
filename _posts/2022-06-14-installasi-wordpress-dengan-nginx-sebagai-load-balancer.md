@@ -1,8 +1,11 @@
 ---
 title: Installasi WordPress dengan Nginx sebagai Load Balancer
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Sebelumnya saya mencoba untuk membuat web wordpress menggunakan topologi load balancer, kira-kira topologinya seperti gambar berikut.
 
 ![Topologi](svg/wordpress.svg)

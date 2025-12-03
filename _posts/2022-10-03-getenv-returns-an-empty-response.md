@@ -1,8 +1,11 @@
 ---
 title: The test with getenv("PATH") only returns an empty response
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Saat melakukan installasi Owncloud, saya menemukan peringatan **The test with getenv("PATH") only returns an empty response**.
 
 Untuk mengatasi hal tersebut, buka file konfigurasi php-fpm.

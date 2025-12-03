@@ -1,9 +1,8 @@
 ---
 title: Implementasi Nginx sebagai Reverse Proxy
 layout: page
+author: iqbwl
 ---
-
-
 ## Reverse Proxy
 
 Yang pertama, kita perlu tau apa itu Proxy Server.

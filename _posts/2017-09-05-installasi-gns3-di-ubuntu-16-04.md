@@ -1,8 +1,11 @@
 ---
 title: Installasi GNS3 di Ubuntu 16.04
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Baiklah, langsung saja, bagaimana cara install GNS3. Sebelumnya, dalam hal ini sistem operasi yang digunakan adalah Ubuntu 16.04.
 
 ![GNS3](/migrated/blog/img/gns3-1.png)

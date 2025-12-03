@@ -1,8 +1,11 @@
 ---
 title: Cara Install NodeJS di Ubuntu 20.04
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Untuk installasi NodeJS pada Ubuntu sangatlah mudah, kita gunakan saja script nvm berikut:
 
 ```bash

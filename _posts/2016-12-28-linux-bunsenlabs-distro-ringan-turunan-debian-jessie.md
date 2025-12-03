@@ -1,8 +1,11 @@
 ---
 title: BunsenLabs, Distro Ringan Turunan Debian Jessie
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 [BunsenLabs](https://www.bunsenlabs.org) merupakan Distro Linux turunan Debian "Jessie". Distro ini adalah lanjutan dari Distro Linux [Crunchbang](http://distrowatch.com/crunchbang). Versi rilis terbarunya yaitu Hydrogen RC2.
 
 ![BunsenLabs](/migrated/blog/img/bunsenlabs.png)

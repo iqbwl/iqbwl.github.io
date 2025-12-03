@@ -1,8 +1,11 @@
 ---
 title: Mengalihkan Request HTTP ke HTTPS
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Beberapa hari lalu beli hosting dan gratis SSL dari **Let's Encrypt** di [**IDHosts.co.id**](http://idhosts.co.id) dan langsung konfigurasi supaya SSLnya aktif.
 
 ![HTTPS](/migrated/blog/img/https-img.png)

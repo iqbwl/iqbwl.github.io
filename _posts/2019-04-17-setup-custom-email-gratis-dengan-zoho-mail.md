@@ -1,8 +1,11 @@
 ---
 title: Setup Custom Email gratis dengan Zoho Mail
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Zoho Mail sebagai salah satu produk Zoho, merupakan layanan mail hosting pihak ketiga. Zoho menawarkan layanan email gratis hingga 5 user untuk tiap domain yang Anda daftarkan.
 
 ![Logo Zoho | sumber: zoho.com](/migrated/blog/img/zoho/zoho-logo.png)

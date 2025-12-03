@@ -1,8 +1,11 @@
 ---
 title: Mengamankan SSH dengan Fail2ban
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Disini saya akan menggunakan fail2ban untuk meminimalisir serangan brute force ke service SSH.
 
 ## Update repository

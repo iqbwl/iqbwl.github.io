@@ -1,8 +1,11 @@
 ---
 title: 'Lsyncd: Ubuntu 18.04 Config'
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ### Default
 
 Edit file `/etc/lsyncd/lsyncd.conf.lua`

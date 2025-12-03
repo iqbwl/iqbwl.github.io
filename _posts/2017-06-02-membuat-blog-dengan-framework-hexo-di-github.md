@@ -1,8 +1,11 @@
 ---
 title: Membuat Blog dengan Framework Hexo di GitHub
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Hexo adalah framework blog sederhana tapi powerful yang didukung oleh Node.js. Web statis generator ini super cepat dan hanya membutuhkan waktu beberapa detik untuk membangun website yang lengkap.
 
 ![Hexo.io](/migrated/blog/img/hexo.png)

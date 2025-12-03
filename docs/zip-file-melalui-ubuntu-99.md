@@ -1,8 +1,8 @@
 ---
 title: Zip file melalui Ubuntu 99%
 layout: page
+author: iqbwl
 ---
-
 Untuk install zip, silakan install menggunakan perintah dibawah.
 
 ![Zip](/img/zip/zip.png)

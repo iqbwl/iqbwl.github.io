@@ -1,8 +1,11 @@
 ---
 title: Webcamnya Linux ya Cheese!!
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Sore ini saya mau sharing tentang Cheese, iya aplikasi Webcam di Linux GRATISS :). Ukurannya juga nggak terlalu besar cuma sekitar 182 kb.
 
 ![Cheese](/migrated/blog/img/cheese.png)

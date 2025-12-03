@@ -1,8 +1,11 @@
 ---
 title: Migrasi ke Platform Hexo
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Sebelumnya, saya adalah pengguna layanan Blogger.com, setelah beberapa bulan saya membeli layanan Shared Hosting dan berMigrasi ke Platform Wordpress Self-Host.
 
 ![Hexo.io](/migrated/blog/img/hexo.png)

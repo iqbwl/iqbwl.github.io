@@ -1,8 +1,11 @@
 ---
 title: Cara melihat Cuaca di Terminal Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Cuaca](/migrated/blog/img/cuaca.png)
 
 Langsung simak saja, pertama yang harusa dilakukan adalah Install `curl`.

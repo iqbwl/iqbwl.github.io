@@ -1,8 +1,8 @@
 ---
 title: Apa itu Nginx
 layout: page
+author: iqbwl
 ---
-
 ## Apa sih Nginx itu?
 
 Nginx ini merupakan perangkat lunak yang berfungsi sebagai layanan HTTP dan reverse proxy.

@@ -1,8 +1,11 @@
 ---
 title: Menjalankan Aplikasi Windows di Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Apakah sobat pernah berpikir bahwa aplikasi _Windows_ tidak bisa dijalankan di Lain sistem operasi? Jawabannya adalah tentu saja bisa. Ada beberapa cara untuk menjalankan aplikasi _Windows_ di linux kita tercinta ini seperti menggunakan Virtual Machine, PlayOnLinux, Wine, dan Remote Desktop. Tapi kali saya akan menggunakan Wine.
 
 ![Line](/migrated/blog/img/Wine_Line.png)

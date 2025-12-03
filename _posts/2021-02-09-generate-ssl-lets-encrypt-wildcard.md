@@ -1,8 +1,11 @@
 ---
 title: Generate SSL Let's Encrypt Wildcard
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ### Certbot
 
 Gunakan certbot untuk generate Wildcard SSL.

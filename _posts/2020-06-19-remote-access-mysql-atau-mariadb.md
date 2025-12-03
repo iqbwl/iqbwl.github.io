@@ -1,8 +1,11 @@
 ---
 title: Remote Access MySQL atau MariaDB
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ## Konfigurasi
 
 Konfigurasi MariaDB dengan merubah bind address dari `127.0.0.1` menjadi `0.0.0.0`, kemudian restart service.

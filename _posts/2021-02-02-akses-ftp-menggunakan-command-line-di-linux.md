@@ -1,8 +1,11 @@
 ---
 title: Akses FTP Menggunakan Command Line di Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Gunakan perintah `ftp` jika tidak pakai ssl atau `ftp-ssl` jika pakai ssl, seperti berikut:
 
 ```bash

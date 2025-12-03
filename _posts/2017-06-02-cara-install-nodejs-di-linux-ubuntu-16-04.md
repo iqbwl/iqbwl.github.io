@@ -1,8 +1,11 @@
 ---
 title: Cara Install NodeJS di Linux Ubuntu 16.04
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Singkat cerita, NodeJS adalah sebuah framework Javascript yang dapat dijalankan di server dan dapat mengelola maupun mengolah request data dari client.
 
 ![NodeJS](/migrated/blog/img/nodejs-img.png)

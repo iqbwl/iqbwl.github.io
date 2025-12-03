@@ -1,8 +1,11 @@
 ---
 title: Install Jekyll
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Jekyll adalah generator situs web statis sederhana, yang diperuntukan untuk situs pribadi, proyek, atau organisasi.
 
 Jekyll ditulis dalam bahasa pemrograman `Ruby` oleh **Tom Preston-Werner**, co-founder GitHub, dan didistribusikan di bawah lisensi [sumber terbuka](https://id.wikipedia.org/wiki/Sumber_terbuka).

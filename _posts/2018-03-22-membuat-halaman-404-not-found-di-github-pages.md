@@ -1,8 +1,11 @@
 ---
 title: Membuat Halaman '404 Not Found' di GitHub Pages
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Untuk yang sering otak-atik GitHub Pages pasti tahu, bahwa di GitHub Pages jika kita mengakses halaman yang error/tidak ada, maka muncul halaman `404 Not Found` bawaan dari GitHub Pages.
 
 ![404 Not Found](/migrated/blog/img/404.png)

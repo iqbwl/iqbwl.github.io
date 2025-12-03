@@ -1,8 +1,11 @@
 ---
 title: Setup FTP di CentOS 7
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 #### Install  VSFTPD
 ```bash
 yum update -y

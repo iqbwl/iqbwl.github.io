@@ -1,8 +1,11 @@
 ---
 title: Akses SFTP menggunakan Command Line
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Sama-sama FTP, tapi ini pakai protokol SSH. SFTP ini bisa diakses melalui aplikasi FTP seperti Filezilla dll ataupun melalui console linux, powershell atau cmd.
 
 Berikut ini merupakan perintah untuk akses SFTP menggunakan command line.

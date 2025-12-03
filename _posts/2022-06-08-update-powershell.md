@@ -1,8 +1,11 @@
 ---
 title: Update PowerShell
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Update notice](/migrated/blog/img/powershell/Screenshot_1.png)
 
 Buka powershell kemudian gunakan winget untuk cek versi terbaru.

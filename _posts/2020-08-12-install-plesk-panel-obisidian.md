@@ -1,8 +1,11 @@
 ---
 title: Install Plesk Panel Obsidian
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ## Plesk Panel
 
 Plesk merupakan Control Panel yang cukup terkenal di dunia hosting setelah cPanel. Plesk sendiri adalah Control Panel berbayar sama seperti cPanel, namun kita bisa mendapatkan Trial nya selama 15 hari.

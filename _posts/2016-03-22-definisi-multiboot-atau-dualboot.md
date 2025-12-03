@@ -1,8 +1,11 @@
 ---
 title: Definisi Multi-Boot atau Dual-Boot
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Multi-Boot atau Dual-Boot, adalah nama atau sebutan untuk menginstall dua sistem operasi atau lebih pada satu komputer, misalnya Ubuntu (Linux) dengan Windows.
 
 ![Multisystem](/migrated/blog/img/multisystem.png)

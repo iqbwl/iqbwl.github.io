@@ -1,8 +1,11 @@
 ---
 title: Replikasi Master-Master MariaDB + Nginx Reverse Proxy untuk Database
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Master-Master](/img/db-rep/db-master-master-nginx.png)
 
 List server:

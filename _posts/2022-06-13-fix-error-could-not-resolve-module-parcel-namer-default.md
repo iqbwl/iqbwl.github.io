@@ -1,8 +1,11 @@
 ---
 title: Could not resolve module "@parcel/namer-default"
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Saat sedang menjalankan command `npm install`, kemudian failed karena ada error seperti berikut:
 
 ```bash

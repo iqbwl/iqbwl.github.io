@@ -1,8 +1,11 @@
 ---
 title: 'Tutorial GIMP : Membuat Efek Anyaman'
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Mungkin sebelum ini kalian pernah melihat ataupun membaca sebuah artikel yang membahas tutorial ini pada Photoshop maupun pada GIMP itu sendiri. Dan mungkin dari tutorial-tutorial yang ada sebelumnya mungkin agak susah untuk dipahami.
 
 ![Efek Anyaman](/migrated/blog/img/gimp-anyaman.png)

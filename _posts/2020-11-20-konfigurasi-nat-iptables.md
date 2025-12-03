@@ -1,8 +1,11 @@
 ---
 title: Konfigurasi NAT Iptables
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Sebelumnya saya sedang mencoba membuat website WordPress dengan topology load balancing, dengan detailnya dibawah ini:
 
 - 1 VM LB

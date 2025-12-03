@@ -1,8 +1,11 @@
 ---
 title: Cara Install Gatsby di Ubuntu 20.04
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 [Gatsby.js](https://www.gatsbyjs.com/) merupakan framework yang berbasis dari React.js dan bersifat open-source.
 
 Persyaratan:

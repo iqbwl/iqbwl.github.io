@@ -1,45 +1,77 @@
-title: iqbwl
+title: Iqbwl Archive
+subtitle: Personal Blogs
 author: iqbwl
-email: info@iqbwl.com
+email: iqbwl@abc.web.id
 description: > # description of the site (multiple lines allowed)
   personal blogs
 
 url: "https://iqbwl.github.io"
 permalink: /:slug
 
-favicon: "/assets/icons8-sauropod-96.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+favicon: "/assets/icons8-sauropod-96.png"
 
-#theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+remote_theme: iqbwl/another-minima-x
 
-theme_config:
-  appearance: "light" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%d-%m-%Y" # customize how date is formatted
-  show_description: true # show blog description in home page
+# Front matter defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "iqbwl"
+      categories: ["uncategorized"]
+      comments: false
+  # Pages defaults
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "iqbwl"
 
+header_pages:
+  - title: Home
+    url: /
+  - title: Docs
+    url: /docs/
+  - title: Learning
+    url: /learning/
+
+# SCSS compilation settings
 sass:
-  style: :compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
+  style: compressed
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
 
+# Files and folders to exclude from build
 exclude:
-  - .jekyll-cache
+  - .gitignore
+  - .git/
+  - .jekyll-cache/
+  - .sass-cache/
+  - README.md
   - Gemfile
   - Gemfile.lock
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - LICENSE.txt
-  - README.md
-  - no-style-please.md
-  - no-style-please.gemspec
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 include:
   - svg
   - img
   - migrated
-
-# deployment
-#host: 0.0.0.0
-#port: 8000

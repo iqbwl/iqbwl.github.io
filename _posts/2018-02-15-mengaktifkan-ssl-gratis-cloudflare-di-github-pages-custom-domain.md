@@ -1,8 +1,11 @@
 ---
 title: Mengaktifkan SSL Gratis Cloudflare di GitHub Pages
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Sebenarnya, di GitHub sudah tersedia ssl gratis untuk setiap halaman yang dibuat (_GitHub Pages_). Namun untuk yang menggunakan nama domain sendiri atau custom domain, github tidak menyediakan ssl gratis.
 
 ![Cloudflare](/migrated/blog/img/ssl-cloudflare.png)

@@ -1,8 +1,11 @@
 ---
 title: Cara Install Aplikasi Atom di Linux Mint Via PPA
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Atom adalah sebuah Aplikasi teks editor seperti halnya Notepad++ di _Windows._  Atom sendiri adalah Aplikasi yang bersifat Cross Platform yang artinya bisa dijalankan dibeberapa sistem operasi seperti Linux dan Mac OsX.
 
 Atom tidak bisa didownload dalam versi 32 bit, terkecuali kita Install manual lewat terminal linux kita :).

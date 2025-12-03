@@ -1,8 +1,11 @@
 ---
 title: Cek Kecepatan Koneksi Internet Melalui Terminal Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Speedtest](/migrated/blog/img/speedtest.png)
 
 Seringkali kita sebagai pengguna internet ingin mengetahui berapa kecepatan koneksi internet milik kita. Jika kamu pengguna linux untuk mengecek kecepatan koneksi internet kamu sangatlah mudah. Kita tidak perlu menunggu loading dari situs pengetes koneksi seperti **speedtest.net, speedtest.cbn.net.id, speedtest.telin.co.id**.

@@ -1,8 +1,11 @@
 ---
 title: Make a Private Git Repository Using GitLab CE
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 **GitLab Community Edition (CE)** adalah platform pengembangan end-to-end perangkat lunak open source dengan built-in version control, issue tracking, code review, CI/CD, dan banyak lagi.
 
 ![GitLab CE](/migrated/blog/img/gitlab-ce.png)

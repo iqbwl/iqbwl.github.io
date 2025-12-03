@@ -1,8 +1,11 @@
 ---
 title: Nextcloud under pfSense & Cloudflare
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Untuk judul diatas, kira-kira gambaranya seperti ini.
 
 ![NextCloud + pfSense + Cloudflare](svg/nextcloud.svg)

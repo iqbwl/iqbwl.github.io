@@ -1,8 +1,11 @@
 ---
 title: Membuat Repository Git
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Pertama-tama kita perlu buat akun github atau gitlab, jika mempunyai server git sendiri itu bagus.
 
 Silakan daftar akun github/gitlab pada link dibawah ini.

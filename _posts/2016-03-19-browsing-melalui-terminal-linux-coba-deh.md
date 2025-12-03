@@ -1,8 +1,11 @@
 ---
 title: Browsing Melalui Terminal Linux? Coba Deh!!
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Elinks](/migrated/blog/img/elinks.png)
 
 Ok langsung saja, udah ada yang pernah Browsing di Terminal Linux? Saya rasa sudah banyak yang pernah mencobanya.

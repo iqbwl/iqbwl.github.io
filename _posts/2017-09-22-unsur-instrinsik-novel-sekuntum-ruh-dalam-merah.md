@@ -1,8 +1,11 @@
 ---
 title: Unsur Intrinsik Novel Sekuntum Ruh dalam Merah
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 Kemarin, waktu saya masih duduk di bangku kelas 3 SMK, saya dan semua jurusan di kelas 3 diberi tugas untuk membuat laporan `Identifikasi Unsur Intrinsik Novel`, dan saya membuat laporan tentang sebuah Novel yang sangat luar biasa (menurut saya) yaitu `Sekuntum Ruh dalam Merah` karya `NANING PRANOTO`.
 
 ![Sekuntum Ruh dalam Merah](/migrated/blog/img/srdm-1.png)

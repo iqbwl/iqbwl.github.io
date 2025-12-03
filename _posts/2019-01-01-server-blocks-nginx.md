@@ -1,8 +1,11 @@
 ---
 title: Server Block Nginx
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 ![Nginx Logo https://dwglogo.com](/migrated/blog/img/nginx-logo.png)
 
 Berikut contoh konfigurasi server block Nginx:

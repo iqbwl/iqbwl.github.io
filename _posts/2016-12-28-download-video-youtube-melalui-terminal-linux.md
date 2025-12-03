@@ -1,8 +1,11 @@
 ---
 title: Download Video YouTube melalui Terminal Linux
 layout: post
+author: iqbwl
+categories:
+- uncategorized
+comments: false
 ---
-
 [YouTube](https://youtube.com) adalah salah satu situs web berbagi video secara gratis. Situs ini memungkinkan Anda dapat mengunggah, berbagi dan menonton. YouTube ini merupakan situs web berbagi video paling populer di dunia.
 
 ![YouTube](/migrated/blog/img/youtube.png)

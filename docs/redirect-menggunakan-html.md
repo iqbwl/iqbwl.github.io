@@ -1,8 +1,8 @@
 ---
 title: Redirect menggunakan html
 layout: page
+author: iqbwl
 ---
-
 Untuk redirect menggunakan html, cukup tambahkan parameter berikut pada header html:
 ```html
 <meta http-equiv="Refresh" content="0; url='https://iqbal.id'" />
