@@ -8,7 +8,7 @@ description: > # description of the site (multiple lines allowed)
 url: "https://iqbwl.github.io"
 permalink: /:slug
 
-favicon: "/assets/icons8-sauropod-96.png"
+favicon: "/favicon.ico"
 
 remote_theme: iqbwl/another-minima-x
 
@@ -32,12 +32,12 @@ defaults:
       author: "iqbwl"
 
 header_pages:
-  - title: Home
-    url: /
-  - title: Docs
-    url: /docs/
-  - title: Learning
-    url: /learning/
+  - title: More
+    children:
+      - title: Docs
+        url: /docs/
+      - title: Learning
+        url: /learning/
 
 # SCSS compilation settings
 sass:
