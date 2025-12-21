@@ -66,7 +66,7 @@ git add .
 git commit -m "$COMMIT_MSG"
 
 if [ $? -eq 0 ]; then
-  git push gh master
+  git push origin master
   
   if [ $? -eq 0 ]; then
     echo -e "${GREEN}✅ Success! Changes pushed to GitHub.${NC}"
