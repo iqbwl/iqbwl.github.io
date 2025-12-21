@@ -55,5 +55,5 @@ Personal blog - All rights reserved.
 ## Author
 
 **Iqbwl**
-- Email: iqbwl@abc.web.id
+- Email: iqbwl@silent.web.id
 - Telegram: [@iqbwld](https://t.me/iqbwld)
