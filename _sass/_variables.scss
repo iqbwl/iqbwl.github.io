@@ -1,6 +1,34 @@
-@charset "utf-8";
+// Colors - CSS Variables Configuration
+:root {
+    --bg-main: #FAFAFA;
+    --bg-header: #3B2F2F;
+    --bg-footer: #2A1F2F;
+    --text-main: #2E2E2E;
+    --text-invert: #F5F5F5;
+    --accent: #E6B17E;
+    --border-subtle: #4A3A3A;
+    --code-bg: #f6f8fa;
+    --link-color: #2E2E2E;
+    --link-hover: #E6B17E;
+}
 
-// Typography
+[data-theme="dark"] {
+    --bg-main: #121212;
+    --bg-header: #1E1E1E;
+    --bg-footer: #181818;
+    --text-main: #EAEAEA;
+    --text-invert: #FFFFFF;
+    --accent: #E6B17E;
+    --border-subtle: #2A2A2A;
+    --code-bg: #161b22;
+    --link-color: #EAEAEA;
+    --link-hover: #E6B17E;
+}
+
+// SCSS Variables mapped to CSS Variables
+// We use these for backward compatibility where possible, 
+// but direct usage of var() in _layout.scss is preferred for new theme elements.
+
 $base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
 $code-font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !default;
 $base-font-size: 16px !default;
@@ -18,30 +46,26 @@ $on-laptop: 800px !default;
 $on-medium: $on-palm !default;
 $on-large: $on-laptop !default;
 
-// Colors - Light mode (classic skin)
-$brand-color: #828282 !default;
-$brand-color-light: lighten($brand-color, 40%) !default;
-$brand-color-dark: darken($brand-color, 25%) !default;
+// Color Mappings
+$brand-color: var(--accent);
+$text-color: var(--text-main);
+$background-color: var(--bg-main);
+$header-bg: var(--bg-header);
+$footer-bg: var(--bg-footer);
+$code-background-color: var(--code-bg);
 
-$site-title-color: $brand-color-dark !default;
+$link-base-color: var(--link-color);
+$link-visited-color: var(--link-color); // Simplify visited to same as link for now
+$link-hover-color: var(--link-hover);
 
-$text-color: #111111 !default;
-$background-color: #fdfdfd !default;
-$code-background-color: #eeeeff !default;
+$border-color-01: var(--border-subtle);
+$border-color-02: var(--border-subtle);
+$border-color-03: var(--border-subtle);
 
-$link-base-color: #2a7ae2 !default;
-$link-visited-color: darken($link-base-color, 15%) !default;
-$link-hover-color: $text-color !default;
-
-$border-color-01: $brand-color-light !default;
-$border-color-02: lighten($brand-color, 35%) !default;
-$border-color-03: $brand-color-dark !default;
-
-$table-text-color: lighten($text-color, 18%) !default;
-$table-zebra-color: lighten($brand-color, 46%) !default;
-$table-header-bg-color: lighten($brand-color, 43%) !default;
-$table-header-border: lighten($brand-color, 37%) !default;
-$table-border-color: $border-color-01 !default;
-
-// Table alignment
+// Table settings
+$table-text-color: var(--text-main);
+$table-zebra-color: rgba(0, 0, 0, 0.05); // Use opacity for theme compatibility
+$table-header-bg-color: var(--bg-header); // Use header bg or accent?
+$table-header-border: var(--border-subtle);
+$table-border-color: var(--border-subtle);
 $table-text-align: left !default;

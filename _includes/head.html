@@ -4,9 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
     {%- if page.url == "/" -%}
-    Iqbwl.com - Personal Blogs
+    {{ site.title | escape }}
     {%- else -%}
-    {{ page.title }} - Iqbwl.com
+    {{ page.title | escape }} - {{ site.title | escape }}
     {%- endif -%}
   </title>
   {%- seo title=false -%}

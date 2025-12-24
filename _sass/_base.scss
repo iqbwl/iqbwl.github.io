@@ -102,7 +102,7 @@ figcaption {
  */
 ul,
 ol {
-    margin-left: $spacing-unit;
+    margin-left: 1.1em;
 }
 
 li {
@@ -127,7 +127,7 @@ h6 {
  * Links
  */
 a {
-    color: #0066cc;
+    color: $link-base-color;
     text-decoration: none;
     transition: color 0.2s ease;
 
@@ -136,7 +136,7 @@ a {
     }
 
     &:hover {
-        color: #004499;
+        color: $link-hover-color;
         text-decoration: underline;
     }
 
@@ -176,7 +176,7 @@ pre,
 code {
     font-family: $code-font-family;
     font-size: 0.9em;
-    background-color: #f6f8fa;
+    background-color: $code-background-color;
     border-radius: 4px;
 }
 
@@ -197,12 +197,10 @@ pre {
 
 .highlight {
     border-radius: 6px;
-    background: #f6f8fa;
-    padding: 1rem;
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
-        background: #f6f8fa;
+        background: transparent;
     }
 }
 

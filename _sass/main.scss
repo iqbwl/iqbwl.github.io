@@ -6,10 +6,11 @@
 
 // Import base styles and layout
 @import "base";
-@import "layout";
 
 // Import GitHub markdown CSS
 @import "github-markdown";
+
+@import "layout";
 
 // Syntax highlighting
 .highlight {

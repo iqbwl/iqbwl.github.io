@@ -1,10 +1,10 @@
 # Site metadata
-title: Iqbwl.com       # Site title (used in header, SEO)
+title: Iqbwl       # Site title (used in header, SEO)
 author:
   name: Iqbwl          # Author name (used in posts, footer)
   email: iqbwl@silent.web.id
 
-url: "https://iqbwl.com"
+url: "https://iqbwl.web.id"
 
 # Site description for SEO
 description: >
@@ -34,7 +34,6 @@ defaults:
       layout: "post"
       author: "iqbwl"
       categories: ["uncategorized"]
-      comments: true  # Enable Disqus by default
   # Pages defaults
   - scope:
       path: ""
@@ -67,8 +66,7 @@ header_pages:
     url: https://abc.web.id/tools
     external: true
 
-disqus:
-  shortname: iqbwl
+
 
 # Files and folders to exclude from build
 exclude:

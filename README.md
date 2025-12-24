@@ -57,3 +57,8 @@ Personal blog - All rights reserved.
 **Iqbwl**
 - Email: iqbwl@silent.web.id
 - Telegram: [@iqbwld](https://t.me/iqbwld)
+
+## Recent Changes
+
+- **Theme Fixes**: Corrected Markdown table and code block colors for better dark mode support.
+- **Menu Update**: Implemented a "More" dropdown menu in the header to organize navigation links ("Archived Blog", "Tools").

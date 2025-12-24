@@ -1,12 +1,11 @@
 /* light */
 .markdown-body {
-  color-scheme: light;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   margin: 0;
-  color: #1f2328;
-  background-color: #ffffff;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -318,7 +317,7 @@
 .markdown-body ol {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 2em;
+  padding-left: 1.1em;
 }
 
 .markdown-body ol ol,
@@ -567,7 +566,7 @@
 .markdown-body table th,
 .markdown-body table td {
   padding: 6px 13px;
-  border: 1px solid #d1d9e0;
+  border: 1px solid var(--border-subtle);
 }
 
 .markdown-body table td>:last-child {
@@ -575,12 +574,12 @@
 }
 
 .markdown-body table tr {
-  background-color: #ffffff;
-  border-top: 1px solid #d1d9e0b3;
+  background-color: transparent;
+  border-top: 1px solid var(--border-subtle);
 }
 
 .markdown-body table tr:nth-child(2n) {
-  background-color: #f6f8fa;
+  background-color: var(--table-zebra-color);
 }
 
 .markdown-body table img {
@@ -736,12 +735,12 @@
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-  padding: 1rem;
+  padding: 10px;
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  color: #1f2328;
-  background-color: #f6f8fa;
+  color: var(--text-main);
+  background-color: var(--code-bg);
   border-radius: 6px;
 }
 
@@ -974,7 +973,7 @@
 .markdown-body g-emoji {
   display: inline-block;
   min-width: 1ch;
-  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1em;
   font-style: normal !important;
   font-weight: 400;
@@ -1102,4 +1101,3 @@
 .markdown-body .highlight pre:has(+.zeroclipboard-container) {
   min-height: 52px;
 }
-

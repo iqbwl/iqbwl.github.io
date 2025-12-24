@@ -10,7 +10,19 @@
 
 [[redirects]]
   from = "https://iqbwl.netlify.app/*"
-  to = "https://iqbwl.com/:splat"
+  to = "https://iqbwl.web.id/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://iqbwl.com/*"
+  to = "https://iqbwl.web.id/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.iqbwl.com/*"
+  to = "https://iqbwl.web.id/:splat"
   status = 301
   force = true
   
