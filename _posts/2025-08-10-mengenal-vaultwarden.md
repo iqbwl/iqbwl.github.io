@@ -9,11 +9,7 @@ categories:
 ### Apa itu Vaultwarden?
 Pernah gak kamu punya banyak banget akun di internet, sampai bingung yang mana password untuk akun ini dan akun itu? Apalagi kalau kebiasaannya sama seperti aku dulu: semua password mirip-mirip, cuma beda angka di belakang. Nah, Vaultwarden ini bisa dibilang solusi untuk masalah **“password mudah ditebak”** seperti itu.
 
-{% include figure.html
-    src="/static/img/vaultwarden/vaultwarden-logo.svg" 
-    alt="Vaultwarden Logo"
-    caption="sc: github.com/dani-garcia/vaultwarden"
-%}
+![Vaultwarden Logo](/static/img/vaultwarden/vaultwarden-logo.svg "sc: github.com/dani-garcia/vaultwarden")
 
 Secara sederhana, Vaultwarden adalah versi ringan dan open-source dari Bitwarden, sebuah password manager populer. Bedanya, kalau Bitwarden biasanya digunakan di layanan cloud resmi mereka, Vaultwarden ini bisa kamu jalankan sendiri di server pribadi. Jadi semua data gak disimpan di server pihak lain, melainkan aman di server milikmu (home lab, atau bisa juga vps yang kamu sewa). Hemat resource, hemat biaya, tetapi tetap bertenaga.
 
@@ -27,11 +23,7 @@ Begitu kamu login, Vaultwarden akan memberikan password yang kamu butuhkan, baik
 ### Pentingnya Menggunakan Password Manager
 Aku paham, membuat password yang berbeda-beda untuk setiap akun itu terasa merepotkan. Tetapi di era kebocoran data yang semakin sering ini, password manager bukan lagi sekadar opsi, melainkan kebutuhan.
 
-{% include figure.html
-    src="/static/img/vaultwarden/same-password-everywhere-meme.webp" 
-    alt="Grandma Finds The Internet"
-    caption="sc: officesolutionsit.com.au"
-%}
+![Grandma Finds The Internet](/static/img/vaultwarden/same-password-everywhere-meme.webp "sc: officesolutionsit.com.au")
 
 
 Dengan Vaultwarden (atau password manager lainnya), kamu bisa:
