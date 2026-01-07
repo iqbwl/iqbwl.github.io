@@ -742,6 +742,7 @@ body pre {
   color: var(--text-main);
   background-color: var(--code-bg);
   border-radius: 6px;
+  border: 1px solid var(--border-subtle);
 }
 
 body pre code,
