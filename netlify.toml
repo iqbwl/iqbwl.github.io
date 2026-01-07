@@ -1,6 +1,9 @@
 [build]
   publish = "public"
-  command = "JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml"
+  command = "bundle install && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml"
+
+[build.environment]
+  RUBY_VERSION = "3.2.2"
 
 [[redirects]]
   from = "/archive"
