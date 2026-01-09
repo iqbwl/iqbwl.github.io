@@ -389,6 +389,7 @@ table {
     @include relative-font-size(1.5);
     font-weight: 600;
     color: var(--text-main);
+    text-decoration: none !important;
 
     &:hover {
         color: var(--accent);

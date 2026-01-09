@@ -8,7 +8,12 @@ url: "https://iqbwl.web.id"
 
 # Site description for SEO
 description: >
-  My digital notebook. I write about things I'm learning, problems I've solved, and random thoughts that seem worth keeping.
+  My digital notebook. I write about things I'm learning, problems I'm solving, and random thoughts that seem worth keeping.
+
+collections:
+  cheatsheets:
+    output: true
+
 
 plugins:
   - jekyll-feed
@@ -41,6 +46,14 @@ defaults:
     values:
       layout: "page"
       author: "iqbwl"
+  # Cheatsheets defaults
+  - scope:
+      path: ""
+      type: "cheatsheets"
+    values:
+      layout: "cheatsheet"
+      excerpt_separator: ""
+
 
 # SCSS compilation settings
 sass:
@@ -55,6 +68,8 @@ permalink: /:slug
 header_pages:
   - title: About
     url: /about
+  - title: Cheatsheets
+    url: /cheatsheets
   # Example external link:
   # - title: Portfolio
   #   url: https://example.com
