@@ -2,9 +2,6 @@
   publish = "public"
   command = "bundle install && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml"
 
-[build.environment]
-  RUBY_VERSION = "3.3.6"
-
 [[redirects]]
   from = "/archive"
   to = "https://iqbwl.github.io"
