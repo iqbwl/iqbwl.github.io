@@ -70,18 +70,22 @@ header_pages:
     url: /about
   - title: Cheatsheets
     url: /cheatsheets
-  # Example external link:
-  # - title: Portfolio
-  #   url: https://example.com
-  #   external: true
-  - title: Archived Blog
-    url: https://iqbwl.github.io
-    external: true
+  - title: Links
+    sub_menu:
+      - title: Archived Blog
+        url: https://iqbwl.github.io
+        external: true
+      - title: Github
+        url: https://github.com/iqbwl
+        external: true
   - title: Tools
-    url: https://abc.web.id/tools
-    external: true
-
-
+    sub_menu:
+      - title: Split Bill
+        url: https://abc.web.id/tools/split-bill
+        external: true
+      - title: QR Code Generator
+        url: https://abc.web.id/tools/qr-code-generator
+        external: true
 
 # Files and folders to exclude from build
 exclude:
