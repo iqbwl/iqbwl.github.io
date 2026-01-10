@@ -33,7 +33,7 @@ jekyll_admin:
     - configuration  # Hide config from admin
   homepage: "posts"  # Default to posts page
 
-show_drafts: true
+show_drafts: false
 
 # Front matter defaults
 defaults:
