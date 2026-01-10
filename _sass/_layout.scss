@@ -141,8 +141,8 @@ table {
         opacity: 0.8;
         font-weight: 500;
         line-height: 1.5;
-        padding: 5px 10px;
-        margin-left: 8px;
+        padding: 5px 8px; // Reduced padding
+        margin-left: 5px; // Reduced margin
         text-decoration: none;
         transition: opacity 0.2s, color 0.2s;
 
@@ -209,8 +209,9 @@ table {
         }
 
         input:checked~.trigger {
-            max-height: 300px; // Large enough
+            max-height: 80vh; // Increase from 300px
             padding-bottom: 10px;
+            overflow-y: auto; // Add scroll if content exceeds height
         }
 
         // Hamburger animation state
@@ -629,7 +630,9 @@ figure.md-figure figcaption {
     top: 100%; // Below the header
     right: 0; // Align right edge with dropdown toggle
     background-color: var(--bg-header);
-    min-width: 160px;
+    min-width: 120px;
+    max-width: 240px; // Strict max-width per rules
+    width: max-content; // Fit content up to max-width
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border: 1px solid var(--border-subtle);
     border-radius: 4px;
@@ -640,9 +643,15 @@ figure.md-figure figcaption {
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.2s, transform 0.2s;
+
+    // Global scrolling for constrained height
+    max-height: 300px;
+    overflow-y: auto;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown.active .dropdown-content {
+    // Add .active support
     display: block;
     opacity: 1;
     transform: translateY(0);
@@ -650,10 +659,13 @@ figure.md-figure figcaption {
 
 .dropdown-item {
     color: var(--text-invert);
-    padding: 10px 15px;
+    padding: 6px 12px; // Reduced padding
     text-decoration: none;
     display: block;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    white-space: nowrap; // No text wrapping on desktop
+    overflow: hidden;
+    text-overflow: ellipsis; // Ellipsis if it hits max-width
     transition: background-color 0.2s, color 0.2s;
 
     &:visited {
@@ -691,25 +703,39 @@ figure.md-figure figcaption {
     // Simple solution: Make items visible below "More" or ensure hover works (touch often treats first tap as hover).
 
     .dropdown-content {
-        position: static;
+        position: static; // Inline flow, NOT floating
         box-shadow: none;
         border: none;
-        background-color: rgba(0, 0, 0, 0.1); // Slightly darker bg for nested items
-        width: 100%;
+        background-color: rgba(0, 0, 0, 0.05); // Subtle contrast for nested items
+        width: 100%; // Full width of container
+        max-width: none; // Reset desktop constraint
+        min-width: 0; // Reset desktop constraint
+
         display: none; // Hidden by default
         opacity: 1;
         transform: none;
         padding: 0;
+        z-index: auto;
+
+        max-height: none; // Allow full expansion inline
+        overflow-y: visible; // No scroll inside dropdown, use main menu scroll (from line 215)
+
+        border-radius: 0;
     }
 
     // Force display on hover/focus-within for mobile simple interaction
+    // Also support .active class for click behavior
     .dropdown:hover .dropdown-content,
-    .dropdown:focus-within .dropdown-content {
+    .dropdown:focus-within .dropdown-content,
+    .dropdown.active .dropdown-content {
         display: block;
     }
 
     .dropdown-item {
-        padding-left: 30px; // Indent
+        padding-left: 15px; // Standard indent
+        padding-right: 15px;
+        padding-top: 8px; // Compact vertical padding
+        padding-bottom: 8px;
         border-bottom: none;
 
         &:hover {
