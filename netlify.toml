@@ -3,26 +3,8 @@
   command = "bundle install && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml"
 
 [[redirects]]
-  from = "/archive"
-  to = "https://iqbwl.github.io"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "https://iqbwl.netlify.app/*"
-  to = "https://iqbwl.web.id/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://iqbwl.com/*"
-  to = "https://iqbwl.web.id/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.iqbwl.com/*"
-  to = "https://iqbwl.web.id/:splat"
+  to = "https://iqbwl.com/:splat"
   status = 301
   force = true
   
