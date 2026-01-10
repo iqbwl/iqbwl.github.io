@@ -13,6 +13,12 @@ description: >
 collections:
   cheatsheets:
     output: true
+  archive:
+    output: true
+  docs:
+    output: true
+  learning:
+    output: true
 
 
 plugins:
@@ -38,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "iqbwl"
-      categories: ["uncategorized"]
+
   # Pages defaults
   - scope:
       path: ""
@@ -53,6 +59,25 @@ defaults:
     values:
       layout: "cheatsheet"
       excerpt_separator: ""
+  # Archive defaults
+  - scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: "archive"
+      permalink: /archive/:slug
+  # Docs defaults
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
+  # Learning defaults
+  - scope:
+      path: ""
+      type: "learning"
+    values:
+      layout: "learning"
 
 
 # SCSS compilation settings
@@ -70,21 +95,21 @@ header_pages:
     url: /about
   - title: Cheatsheets
     url: /cheatsheets
-  - title: Links
+  - title: Others
     sub_menu:
-      - title: Archived Blog
-        url: https://iqbwl.github.io
-        external: true
-      - title: Github
-        url: https://github.com/iqbwl
-        external: true
+      - title: Archive
+        url: /archive
+      - title: Docs
+        url: /docs
+      - title: Learning
+        url: /learning
   - title: Tools
     sub_menu:
       - title: Split Bill
         url: https://abc.web.id/tools/split-bill
         external: true
       - title: QR Code Generator
-        url: https://abc.web.id/tools/qr-code-generator
+        url: https://abc.web.id/tools/qr-generator
         external: true
 
 # Files and folders to exclude from build
