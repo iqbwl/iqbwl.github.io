@@ -4,7 +4,6 @@ title: SSH Command Cheatsheet
 description: Essential SSH commands and configuration
 ---
 
-# SSH Command Cheatsheet
 
 A comprehensive reference for SSH (Secure Shell) commands.
 

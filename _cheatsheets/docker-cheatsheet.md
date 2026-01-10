@@ -6,7 +6,6 @@ description: Essential Docker commands for container management
 
 {% raw %}
 
-# Docker Command Cheatsheet
 
 A comprehensive reference for Docker commands and best practices.
 

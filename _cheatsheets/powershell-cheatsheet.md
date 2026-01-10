@@ -4,7 +4,6 @@ title: PowerShell Command Cheatsheet
 description: Essential PowerShell commands and scripting syntax
 ---
 
-# PowerShell Command Cheatsheet
 
 A comprehensive reference for PowerShell commands and scripting.
 

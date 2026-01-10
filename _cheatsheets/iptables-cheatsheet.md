@@ -4,7 +4,6 @@ title: IPTables Firewall Cheatsheet
 description: Essential IPTables commands for firewall management
 ---
 
-# IPTables Firewall Cheatsheet
 
 A comprehensive reference for IPTables firewall commands.
 

@@ -4,7 +4,6 @@ title: Hexo CLI Cheatsheet
 description: Essential commands for Hexo static blog framework
 ---
 
-# Hexo CLI Cheatsheet
 
 Essential commands for Hexo - a fast, simple & powerful blog framework powered by Node.js.
 

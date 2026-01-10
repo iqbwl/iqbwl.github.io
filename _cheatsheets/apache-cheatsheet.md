@@ -3,7 +3,6 @@ layout: cheatsheet
 title: Apache Command Cheatsheet
 description: Essential Apache commands and configuration for web servers
 ---
-# Apache Command Cheatsheet
 
 A comprehensive reference for Apache HTTP Server commands and configuration.
 

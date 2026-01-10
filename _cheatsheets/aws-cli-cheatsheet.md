@@ -3,7 +3,6 @@ layout: cheatsheet
 title: AWS CLI Command Cheatsheet
 description: Essential AWS CLI commands for cloud management
 ---
-# AWS CLI Command Cheatsheet
 
 A comprehensive reference for AWS Command Line Interface.
 

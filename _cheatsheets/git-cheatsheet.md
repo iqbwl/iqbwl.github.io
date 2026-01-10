@@ -4,7 +4,6 @@ title: Git Command Cheatsheet
 description: Essential Git commands for version control
 ---
 
-# Git Command Cheatsheet
 
 A comprehensive reference for Git version control commands.
 

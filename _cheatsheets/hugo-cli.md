@@ -6,7 +6,6 @@ description: Essential commands for Hugo static site generator
 
 {% raw %}
 
-# Hugo CLI Cheatsheet
 
 Essential commands for Hugo static site generator - the world's fastest framework for building websites.
 

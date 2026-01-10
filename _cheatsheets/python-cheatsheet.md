@@ -4,7 +4,6 @@ title: Python Command Cheatsheet
 description: Essential Python syntax and commands
 ---
 
-# Python Command Cheatsheet
 
 A comprehensive reference for Python programming.
 

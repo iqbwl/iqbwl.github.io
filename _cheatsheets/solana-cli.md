@@ -4,7 +4,6 @@ title: Solana CLI Cheatsheet
 description: Essential commands for Solana blockchain development and operations
 ---
 
-# Solana CLI Cheatsheet
 
 Essential commands for Solana blockchain development and operations.
 

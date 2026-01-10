@@ -4,7 +4,6 @@ title: SSL/TLS & OpenSSL Cheatsheet
 description: Essential OpenSSL commands for SSL/TLS certificates
 ---
 
-# SSL/TLS & OpenSSL Cheatsheet
 
 A comprehensive reference for SSL/TLS and OpenSSL commands.
 

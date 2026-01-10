@@ -4,7 +4,6 @@ title: Tmux Command Cheatsheet
 description: Essential tmux commands and shortcuts for terminal multiplexing
 ---
 
-# Tmux Command Cheatsheet
 
 A comprehensive reference for tmux terminal multiplexer commands and shortcuts.
 

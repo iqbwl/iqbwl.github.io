@@ -4,7 +4,6 @@ title: NEAR CLI Cheatsheet
 description: Essential commands for NEAR Protocol development and operations
 ---
 
-# NEAR CLI Cheatsheet
 
 Essential commands for NEAR Protocol development and operations.
 

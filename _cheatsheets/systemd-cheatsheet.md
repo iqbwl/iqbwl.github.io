@@ -4,7 +4,6 @@ title: Systemd Command Cheatsheet
 description: Essential systemd commands for service management
 ---
 
-# Systemd Command Cheatsheet
 
 A comprehensive reference for systemd service management.
 

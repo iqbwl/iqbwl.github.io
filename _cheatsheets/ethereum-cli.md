@@ -4,7 +4,6 @@ title: Ethereum CLI Cheatsheet
 description: 'Essential commands for Ethereum development using Geth, web3.js, and Hardhat'
 ---
 
-# Ethereum CLI Cheatsheet
 
 Essential commands for Ethereum development using Geth, web3.js, and Hardhat.
 

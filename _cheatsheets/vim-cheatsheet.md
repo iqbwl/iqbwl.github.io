@@ -4,7 +4,6 @@ title: Vim Command Cheatsheet
 description: Essential Vim commands and shortcuts for text editing
 ---
 
-# Vim Command Cheatsheet
 
 A comprehensive reference for Vim text editor commands and shortcuts.
 

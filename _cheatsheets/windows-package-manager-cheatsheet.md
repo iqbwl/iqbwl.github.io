@@ -4,7 +4,6 @@ title: Windows Package Manager Cheatsheet
 description: Essential commands for Winget and Chocolatey
 ---
 
-# Windows Package Manager Cheatsheet
 
 A quick reference for managing software on Windows using Winget and Chocolatey.
 

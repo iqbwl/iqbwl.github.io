@@ -4,7 +4,6 @@ title: Sed & Awk Command Cheatsheet
 description: Essential sed and awk commands for text processing
 ---
 
-# Sed & Awk Command Cheatsheet
 
 A comprehensive reference for sed and awk text processing.
 

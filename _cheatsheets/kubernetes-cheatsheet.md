@@ -4,7 +4,6 @@ title: Kubernetes (K8s) Command Cheatsheet
 description: Essential kubectl commands for Kubernetes cluster management
 ---
 
-# Kubernetes (K8s) Command Cheatsheet
 
 A comprehensive reference for Kubernetes and kubectl commands.
 

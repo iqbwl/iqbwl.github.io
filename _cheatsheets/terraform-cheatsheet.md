@@ -4,7 +4,6 @@ title: Terraform Command Cheatsheet
 description: Essential Terraform commands for infrastructure as code
 ---
 
-# Terraform Command Cheatsheet
 
 A comprehensive reference for Terraform infrastructure as code.
 

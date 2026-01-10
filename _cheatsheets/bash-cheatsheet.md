@@ -4,7 +4,6 @@ title: Bash Scripting Cheatsheet
 description: Essential Bash scripting syntax and commands
 ---
 
-# Bash Scripting Cheatsheet
 
 A comprehensive reference for Bash shell scripting.
 

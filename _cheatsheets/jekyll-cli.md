@@ -4,7 +4,6 @@ title: Jekyll CLI Cheatsheet
 description: Essential commands for Jekyll static site generator
 ---
 
-# Jekyll CLI Cheatsheet
 
 Essential commands for Jekyll static site generator.
 

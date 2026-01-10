@@ -4,7 +4,6 @@ title: Nginx Command Cheatsheet
 description: Essential Nginx commands and configuration for web servers
 ---
 
-# Nginx Command Cheatsheet
 
 A comprehensive reference for Nginx web server commands and configuration.
 

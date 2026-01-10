@@ -4,7 +4,6 @@ title: Arch Linux Cheatsheet
 description: Essential commands for Arch Linux, Pacman, AUR (Yay/Paru), and Flatpak
 ---
 
-# Arch Linux Cheatsheet
 
 A quick reference for Arch Linux package management and system maintenance.
 
@@ -35,6 +34,22 @@ paccache -r                  # Clear cache (keep last 3 versions)
 ## AUR Helpers (Yay / Paru)
 
 Common commands for popular AUR helpers.
+
+### Install Yay (from AUR)
+```bash
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+### Install Paru (from AUR)
+```bash
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
 
 ### Yay
 ```bash

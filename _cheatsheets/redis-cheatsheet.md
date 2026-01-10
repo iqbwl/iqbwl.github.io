@@ -4,7 +4,6 @@ title: Redis Command Cheatsheet
 description: Essential Redis commands for caching and data structures
 ---
 
-# Redis Command Cheatsheet
 
 A comprehensive reference for Redis commands and data structures.
 

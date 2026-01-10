@@ -4,7 +4,6 @@ title: curl Command Cheatsheet
 description: Essential curl commands for HTTP requests and API testing
 ---
 
-# curl Command Cheatsheet
 
 A comprehensive reference for curl commands and HTTP operations.
 

@@ -4,7 +4,6 @@ title: PostgreSQL Command Cheatsheet
 description: Essential PostgreSQL commands for database management
 ---
 
-# PostgreSQL Command Cheatsheet
 
 A comprehensive reference for PostgreSQL database commands.
 

@@ -4,7 +4,6 @@ title: Grep & Find Command Cheatsheet
 description: Essential grep and find commands for searching
 ---
 
-# Grep & Find Command Cheatsheet
 
 A comprehensive reference for grep and find commands.
 

@@ -4,7 +4,6 @@ title: Markdown Syntax Cheatsheet
 description: Complete guide to Markdown formatting and syntax
 ---
 
-# Markdown Syntax Cheatsheet
 
 A comprehensive reference for Markdown formatting syntax.
 

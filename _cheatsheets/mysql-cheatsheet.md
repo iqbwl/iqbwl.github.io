@@ -4,7 +4,6 @@ title: MySQL/MariaDB Command Cheatsheet
 description: Essential MySQL and MariaDB commands for database management
 ---
 
-# MySQL/MariaDB Command Cheatsheet
 
 A comprehensive reference for MySQL and MariaDB database commands.
 

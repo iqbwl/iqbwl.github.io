@@ -4,7 +4,6 @@ title: MongoDB Command Cheatsheet
 description: Essential MongoDB commands for database operations
 ---
 
-# MongoDB Command Cheatsheet
 
 A comprehensive reference for MongoDB commands and operations.
 
