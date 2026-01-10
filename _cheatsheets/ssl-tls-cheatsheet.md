@@ -179,13 +179,59 @@ sudo apt install certbot python3-certbot-nginx  # Nginx
 sudo apt install certbot python3-certbot-apache # Apache
 ```
 
-### Obtain Certificate
+### Verification Methods (Obtain Certificate)
+
+#### Webroot Method
+Use this if you have a running web server and don't want to stop it. Certbot places a file in `.well-known/acme-challenge`.
 ```bash
-sudo certbot --nginx -d example.com -d www.example.com
-sudo certbot --apache -d example.com
-sudo certbot certonly --standalone -d example.com
-sudo certbot certonly --webroot -w /var/www/html -d example.com
+sudo certbot certonly --webroot -w /var/www/html -d example.com -d www.example.com
 ```
+
+#### Standalone Method
+Use this if you don't have a web server running, or can temporarily stop it. Certbot spins up its own server on port 80.
+```bash
+sudo certbot certonly --standalone -d example.com
+```
+
+#### Nginx/Apache Plugins (Automated)
+Automatically configures your web server (edits config files) and reloads it.
+```bash
+sudo certbot --nginx -d example.com
+sudo certbot --apache -d example.com
+```
+
+#### DNS Method (Manual)
+Useful for wildcard certificates (`*.example.com`) or if port 80 is blocked. Requires adding a confusing TXT record to your DNS.
+```bash
+sudo certbot certonly --manual --preferred-challenges dns -d example.com -d *.example.com
+```
+
+#### DNS Plugins (Automated)
+If you use a supported DNS provider (Cloudflare, Route53, etc.), use a plugin to automate DNS challenges.
+
+**Cloudflare Example**
+1. Create `~/.secrets/certbot/cloudflare.ini` (chmod 600):
+   ```ini
+   # ~/.secrets/certbot/cloudflare.ini
+   dns_cloudflare_api_token = 0123456789abcdef0123456789abcdef01234567
+   ```
+2. Run Certbot:
+   ```bash
+   sudo certbot certonly --dns-cloudflare --dns-cloudflare-credentials ~/.secrets/certbot/cloudflare.ini -d example.com
+   ```
+
+**Route53 (AWS) Example**
+1. Configure AWS credentials (standard AWS CLI setup):
+   ```bash
+   # ~/.aws/config
+   [default]
+   aws_access_key_id=AKIAIOSFODNN7EXAMPLE
+   aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+   ```
+2. Run Certbot (ensure the machine has IAM permissions):
+   ```bash
+   sudo certbot certonly --dns-route53 -d example.com
+   ```
 
 ### Renew Certificates
 ```bash
