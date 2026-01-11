@@ -22,7 +22,7 @@ Begitu login, Vaultwarden akan memberikan password yang kita butuhkan, baik di b
 ### Pentingnya Menggunakan Password Manager
 Aku paham, membuat password yang berbeda-beda untuk setiap akun itu terasa merepotkan. Tetapi di era kebocoran data yang semakin sering ini, password manager bukan cuma opsi, tapi kebutuhan.
 
-![Grandma Finds The Internet](/static/static/img/vaultwarden/same-password-everywhere-meme.webp "sc: officesolutionsit.com.au")
+![Grandma Finds The Internet](/static/img/vaultwarden/same-password-everywhere-meme.webp "sc: officesolutionsit.com.au")
 
 
 Dengan Vaultwarden (atau password manager lainnya), kita bisa:
