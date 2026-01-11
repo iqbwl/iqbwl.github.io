@@ -11,7 +11,7 @@ Sebelumnya aku sudah membahas apa itu Vaultwarden dan kenapa penting menggunakan
 
 Disini aku menggunakan vps dengan spesifikasi **1 vCPU, 1GB RAM, 20GB SSD dan OS Debian 12**, aku akan pakai Docker Compose supaya prosesnya cepat, rapi, dan gampang di-maintain. Lalu aku juga akan setup Nginx sebagai reverse proxy.
 
-![Trying to install Vaultwarden](/static/static/img/vaultwarden/trying-to-install-vw.png "Trying to install Vaultwarden")
+![Trying to install Vaultwarden](/static/img/vaultwarden/trying-to-install-vw.png "Trying to install Vaultwarden")
 
 ***
 
@@ -89,7 +89,7 @@ Jalankan Vaultwarden:
 docker compose up -d
 ```
 
-![Start Vaultwarden using Docker Compose](/static/static/img/vaultwarden/docker-compose-up.png "Start Vaultwarden using Docker Compose")
+![Start Vaultwarden using Docker Compose](/static/img/vaultwarden/docker-compose-up.png "Start Vaultwarden using Docker Compose")
 
 Sebelum menggunakan nginx, kita memerlukan ip private dari container Vaultwarden.
 
@@ -148,6 +148,6 @@ sudo apt install -y certbot python3-certbot-nginx
 sudo certbot --nginx -d vault.domainkamu.com
 ```
 
-![Vaultwarden Login](/static/static/img/vaultwarden/vaultwarden-login.png "Vaultwarden")
+![Vaultwarden Login](/static/img/vaultwarden/vaultwarden-login.png "Vaultwarden")
 
 Sekarang Vaultwarden sudah bisa diakses aman melalui HTTPS. 🚀
