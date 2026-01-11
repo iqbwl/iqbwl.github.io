@@ -5,7 +5,7 @@ author: iqbwl
 ---
 Untuk judul diatas, kira-kira gambaranya seperti ini.
 
-![NextCloud + pfSense + Cloudflare](svg/nextcloud.svg)
+![NextCloud + pfSense + Cloudflare](/static/img/nextcloud.svg)
 
 Ini bertujuan agar akses web server hanya akan dari cloudflare saja, dan dari pihak luar tidak bisa langsung direct ke web server.
 
@@ -22,24 +22,24 @@ Untuk server block nginx bisa menggunakan konfigurasi di gist berikut:
 > [https://gist.github.com/iqbwl/df4736b09d0c9e0b71c140aea4197c06](https://gist.github.com/iqbwl/df4736b09d0c9e0b71c140aea4197c06)
 
 Setelah vm web dan mariadb siap, buka menu **firewall > alias > ip** di pfsense.
-![Alias](/img/nextcloud/Screenshot_1.png)
+![Alias](/static/img/nextcloud/Screenshot_1.png)
 
 Klik Add, kemudian tambahkan ip address dari cloudflare yang bisa dicek disini: [https://www.cloudflare.com/ips-v4](https://www.cloudflare.com/ips-v4)
-![IP](/img/nextcloud/Screenshot_3.png)
+![IP](/static/img/nextcloud/Screenshot_3.png)
 
 Untuk type, pilih **network**
-![Add Network](/img/nextcloud/Screenshot_4.png)
+![Add Network](/static/img/nextcloud/Screenshot_4.png)
 
 Setelah itu, masuk ke menu **firewall > nat > port forward**
-![Nat](/img/nextcloud/Screenshot_2.png)
+![Nat](/static/img/nextcloud/Screenshot_2.png)
 
 Klik Add, kemudian atur source dan destinasi nya.
-![Port Forward](/img/nextcloud/Screenshot_5.png)
+![Port Forward](/static/img/nextcloud/Screenshot_5.png)
 
 Pada source, pilih **single host or alias** kemudian pilih alias yang sebelumnya sudah ditambahkan.
 
 Untuk **destination** jangan lupa set ke IP Public yang digunakan dan **rediret port range** ke **http** serta **redirect target ip** ke ip private vm nextcloud
-![Config](/img/nextcloud/Screenshot_6.png)
+![Config](/static/img/nextcloud/Screenshot_6.png)
 
 Jika sudah selesai, arahkan domain di cloudflare ke ip public yang sudah ditentukan. Jangan lupa nyalakan proxy serta ssl pada sisi cloudflare.
 

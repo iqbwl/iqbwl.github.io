@@ -7,7 +7,7 @@ Jekyll adalah generator situs web statis sederhana, yang diperuntukan untuk situ
 
 Jekyll ditulis dalam bahasa pemrograman `Ruby` oleh **Tom Preston-Werner**, co-founder GitHub, dan didistribusikan di bawah lisensi [sumber terbuka](https://id.wikipedia.org/wiki/Sumber_terbuka).
 
-![Jekyll](/migrated/blog/img/jekyll-logo.png)
+![Jekyll](/static/img/migrated/blog/img/jekyll-logo.png)
 
 # Installasi Jekyll
 Jekyll dapat diinstal pada sistem operasi macOS, Ubuntu, [Distro Linux Lain](https://jekyllrb.com/docs/installation/other-linux), Windows.
@@ -82,7 +82,7 @@ Configuration file: /home/iqbal/Jekyll/iqbal-jekyll/_config.yml
 
 Akses jekyll dengan alamat [_http://localhost:4000/_](http://localhost:4000/)
 
-![Localhost Jekyll](/migrated/blog/img/jekyll-localhost.png)
+![Localhost Jekyll](/static/img/migrated/blog/img/jekyll-localhost.png)
 
 ### Konfigurasi Jekyll
 

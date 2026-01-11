@@ -48,26 +48,26 @@ Untuk sistem operasi yang saya gunakan saat ini adalah CentOS 7 64-bit.
   sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
   ```
 
-  ![Installation Command](/migrated/blog/img/plesk-install_centos.png)
+  ![Installation Command](/static/img/migrated/blog/img/plesk-install_centos.png)
 
 - Setelah installasi selesai, klik tautan yang tersedia pada instruksi untuk membuka setup pada web browser.
 
-  ![Installation Completed](/migrated/blog/img/plesk-install-finish_centos.png)
+  ![Installation Completed](/static/img/migrated/blog/img/plesk-install-finish_centos.png)
 
 - Pada setup web, masukan data-data yang dibutukan seperti nama, email, password dan lisensi lalu klik **Enter Plesk**
 
-  ![Web Setup](/migrated/blog/img/plesk-install-setupweb_centos.png)
+  ![Web Setup](/static/img/migrated/blog/img/plesk-install-setupweb_centos.png)
 
   > *) _Untuk lesensi trial/percobaan bisa didapatkan melalui tautan berikut: https://www.plesk.com/plesk-free-download/_
   > Silakan daftar menggunakan email.
 
 - Tunggu sampai proses initializing selesai.
 
-  ![Initializing](/migrated/blog/img/plesk-install-setupweb2_centos.png)
+  ![Initializing](/static/img/migrated/blog/img/plesk-install-setupweb2_centos.png)
   
 - Setelah proses initializing selesai, maka kita akan dibawa ke halaman dashboard Plesk Panel.
 
-  ![Dashboard Plesk](/migrated/blog/img/plesk-dashboard.png)
+  ![Dashboard Plesk](/static/img/migrated/blog/img/plesk-dashboard.png)
   
 ## Tambah Domain
 
@@ -75,14 +75,14 @@ Setelah installasi selesai, sekarang kita tambahkan domain pada Plesk Panel.
 
 - Klik **Add Domain** pada dashboard Plesk Panel, kemudian masukan data-data yang dibutuhkan lalu klik **OK**.
 
-  ![Add a Domain](/migrated/blog/img/plesk-dashboard-adddomain.png)
+  ![Add a Domain](/static/img/migrated/blog/img/plesk-dashboard-adddomain.png)
   
 - Setelah itu tunggu sampai proses penambahan domain selesai.
 
-  ![Add a Domain Completed](/migrated/blog/img/plesk-dashboard-adddomain-finish.png)
+  ![Add a Domain Completed](/static/img/migrated/blog/img/plesk-dashboard-adddomain-finish.png)
 
 - Berikut ini merupakan tampilan default dari laman website yang ditambahkan pada Plesk Panel.
 
-  ![Plesk Default Pages](/migrated/blog/img/plesk-default-pages.png)
+  ![Plesk Default Pages](/static/img/migrated/blog/img/plesk-default-pages.png)
 
 Installasi dan penambahan domain pada Plesk Panel telah selesai, semoga bermanfaat.

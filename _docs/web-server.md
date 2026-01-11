@@ -11,7 +11,7 @@ For how it works like this, for example the client will access _iqbal.id_, then 
 
 Then the web server will read whether _iqbal.id_ is in the configuration, if the _iqbal.id_ configuration is found then the web server will look for the requested data.
 
-![Web Server](/migrated/blog/img/web-server-process.png)
+![Web Server](/static/img/migrated/blog/img/web-server-process.png)
 
 If it is found, it will be given to the web server and the web server will send the requested data to the web client.
 

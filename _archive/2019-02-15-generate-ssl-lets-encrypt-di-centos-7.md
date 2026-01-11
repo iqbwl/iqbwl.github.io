@@ -3,7 +3,7 @@ title: Generate SSL Let's Encrypt di CentOS 7
 layout: archive
 author: iqbwl
 ---
-![Let's Encrypt https://seeklogo.com](/migrated/blog/img/ssl-letsencrypt.png)
+![Let's Encrypt https://seeklogo.com](/static/img/migrated/blog/img/ssl-letsencrypt.png)
 
 Install terlebih dahulu repository `epel-release`
 

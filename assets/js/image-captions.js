@@ -7,27 +7,34 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Find all images in post content with title attribute
-    const images = document.querySelectorAll('.post-content img[title]');
+    // Find all images in prose content
+    const images = document.querySelectorAll('.prose img');
 
     images.forEach(img => {
         // Skip if already in a figure element
         if (img.parentElement.tagName === 'FIGURE') return;
 
-        // Create figure element with existing styling class
-        const figure = document.createElement('figure');
-        figure.className = 'md-figure';
+        // Get caption text from title or alt
+        const captionText = img.title || img.alt;
 
-        // Create figcaption from title attribute
+        // If no caption text, skip
+        if (!captionText) return;
+
+        // Create figure element with styling
+        const figure = document.createElement('figure');
+        figure.className = 'flex flex-col items-center justify-center my-8';
+
+        // Create figcaption
         const caption = document.createElement('figcaption');
-        caption.textContent = img.title;
+        caption.className = 'text-center italic text-sm text-stone-500 dark:text-stone-400 mt-2';
+        caption.textContent = captionText;
 
         // Replace img with figure structure
         img.parentNode.insertBefore(figure, img);
         figure.appendChild(img);
         figure.appendChild(caption);
 
-        // Remove title attribute (already in caption)
-        img.removeAttribute('title');
+        // Remove title attribute to prevent tooltip duplication
+        if (img.title) img.removeAttribute('title');
     });
 });

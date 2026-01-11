@@ -4,12 +4,12 @@
 {%- include head.html -%}
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
-<body>
+<body class="min-h-screen flex flex-col bg-stone-50 dark:bg-zinc-900 transition-colors duration-300">
 
   {%- include header.html -%}
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+  <main class="flex-1">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10">
       {{ content }}
     </div>
   </main>
@@ -19,7 +19,7 @@
   {%- include sub-footer.html -%}
 
   <script src="{{ '/assets/js/image-captions.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/dropdown.js' | relative_url }}"></script>
+
 
 </body>
 

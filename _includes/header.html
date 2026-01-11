@@ -1,57 +1,71 @@
-<header class="site-header">
+<header
+  class="sticky top-0 z-50 w-full border-b border-stone-200 dark:border-white/10 bg-white/80 dark:bg-stone-900/80 backdrop-blur-md transition-all duration-300">
+  <div class="mx-auto flex h-16 max-w-4xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center">
+      <a class="text-xl font-bold tracking-tight text-stone-900 dark:text-white font-heading"
+        href="{{ '/' | relative_url }}">
+        {{ site.title | escape }}
+      </a>
+    </div>
 
-  <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <!-- Mobile Menu Button -->
+    <div class="flex md:hidden">
+      <button type="button"
+        class="mobile-menu-button -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-stone-700 dark:text-stone-200"
+        onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
 
-    <nav class="site-nav">
-
-      {%- if titles_size > 0 -%}
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger">
-        <span class="menu-icon">
-          <svg viewBox="0 0 18 15" width="18px" height="15px">
-            <path
-              d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex md:items-center md:gap-x-6">
+      {%- for item in site.header_pages -%}
+      {%- if item.sub_menu -%}
+      <div class="relative group">
+        <button
+          class="flex items-center gap-x-1 text-sm font-medium leading-6 text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors">
+          {{ item.title }}
+          <svg class="h-4 w-4 text-stone-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+              clip-rule="evenodd" />
           </svg>
-        </span>
-      </label>
+        </button>
 
-      <div class="trigger">
-        {%- for item in site.header_pages -%}
-        {%- if item.sub_menu -%}
-        <div class="dropdown">
-          <a class="page-link dropdown-toggle" href="#">{{ item.title }} ▾</a>
-          <div class="dropdown-content">
+        <!-- Dropdown menu -->
+        <div
+          class="absolute right-0 top-full z-10 mt-3 w-48 origin-top-right rounded-md bg-white dark:bg-stone-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-200 transform scale-95 group-hover:scale-100">
+          <div class="py-1">
             {%- for subitem in item.sub_menu -%}
-            <a class="dropdown-item" href="{{ subitem.url }}" {% if subitem.external %}target="_blank" rel="noopener" {%
-              endif %}>{{ subitem.title }}</a>
+            <a href="{{ subitem.url }}"
+              class="block px-4 py-2 text-sm text-stone-700 dark:text-stone-200 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors"
+              {% if subitem.external %}target="_blank" rel="noopener" {% endif %}>
+              {{ subitem.title }}
+            </a>
             {%- endfor -%}
           </div>
         </div>
-        {%- else -%}
-        {%- if item.url -%}
-        {%- if item.external -%}
-        <a class="page-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title | escape }}</a>
-        {%- else -%}
-        <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
-        {%- endif -%}
-        {%- else -%}
-        {%- assign my_page = site.pages | where: "path", item | first -%}
-        {%- if my_page.title -%}
-        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        {%- endif -%}
-        {%- endif -%}
-        {%- endif -%}
-        {%- endfor -%}
       </div>
+      {%- else -%}
+      {%- if item.url -%}
+      <a href="{{ item.url | relative_url }}"
+        class="text-sm font-medium leading-6 text-stone-700 hover:text-stone-900 dark:text-stone-300 dark:hover:text-white transition-colors"
+        {% if item.external %}target="_blank" rel="noopener" {% endif %}>
+        {{ item.title }}
+      </a>
       {%- endif -%}
+      {%- endif -%}
+      {%- endfor -%}
 
       <!-- Theme Toggle -->
-      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-        <svg class="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+      <button
+        class="theme-toggle ml-2 rounded-full p-1.5 text-stone-500 hover:bg-stone-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600 dark:text-stone-400 dark:hover:bg-stone-800"
+        onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg class="theme-icon-sun h-5 w-5 block dark:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="5"></circle>
           <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -63,12 +77,72 @@
           <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
           <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
         </svg>
-        <svg class="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          style="display:none;">
+        <svg class="theme-icon-moon h-5 w-5 hidden dark:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
         </svg>
       </button>
     </nav>
+  </div>
+
+  <!-- Mobile Menu (Hidden by default) -->
+  <div class="hidden md:hidden" id="mobile-menu">
+    <div class="space-y-1 px-4 pb-3 pt-2 bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-800">
+      {%- for item in site.header_pages -%}
+      {%- if item.sub_menu -%}
+      <div class="space-y-1">
+        <button
+          onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180');"
+          class="flex w-full items-center justify-between rounded-md px-3 py-2 text-base font-medium text-stone-700 hover:bg-stone-50 hover:text-stone-900 dark:text-stone-300 dark:hover:bg-stone-800 dark:hover:text-white">
+          <span>{{ item.title }}</span>
+          <svg class="h-4 w-4 transition-transform duration-200 text-stone-400" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="hidden space-y-1 pl-4 pb-2">
+          {%- for subitem in item.sub_menu -%}
+          <a href="{{ subitem.url }}"
+            class="block rounded-md px-3 py-2 text-sm font-medium text-stone-500 hover:bg-stone-50 hover:text-stone-900 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-white"
+            {% if subitem.external %}target="_blank" rel="noopener" {% endif %}>{{ subitem.title }}</a>
+          {%- endfor -%}
+        </div>
+      </div>
+      {%- else -%}
+      <a href="{{ item.url | relative_url }}"
+        class="block rounded-md px-3 py-2 text-base font-medium text-stone-700 hover:bg-stone-50 hover:text-stone-900 dark:text-stone-300 dark:hover:bg-stone-800 dark:hover:text-white"
+        {% if item.external %}target="_blank" rel="noopener" {% endif %}>{{ item.title }}</a>
+      {%- endif -%}
+      {%- endfor -%}
+
+      <!-- Mobile Theme Toggle -->
+      <div class="mt-4 border-t border-stone-200 dark:border-stone-800 pt-4 pb-2 px-3">
+        <button onclick="toggleTheme()"
+          class="flex w-full items-center gap-3 px-3 py-2 text-base font-medium text-stone-700 dark:text-stone-300 hover:bg-stone-50 dark:hover:bg-stone-800 rounded-md">
+          <div class="dark:hidden flex items-center gap-3">
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <span>Switch to Dark Mode</span>
+          </div>
+          <div class="hidden dark:flex items-center gap-3">
+            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <span>Switch to Light Mode</span>
+          </div>
+        </button>
+      </div>
+    </div>
   </div>
 </header>

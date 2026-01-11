@@ -423,7 +423,7 @@ rsync -avz --delete public/ user@server:/var/www/html/
 ### Built-in Shortcodes
 ```markdown
 <!-- Figure -->
-{{< figure src="/img/photo.jpg" title="Title" >}}
+{{< figure src="/static/img/photo.jpg" title="Title" >}}
 
 <!-- YouTube -->
 {{< youtube VIDEO_ID >}}

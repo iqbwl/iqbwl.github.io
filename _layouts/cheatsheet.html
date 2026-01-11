@@ -1,13 +1,17 @@
 ---
 layout: base
 ---
-<article class="post cheatsheet">
+<article class="h-entry max-w-3xl mx-auto">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+  <header class="mb-10 text-center">
+    <div class="mb-4 flex justify-center items-center gap-2 text-sm text-stone-500 dark:text-stone-400">
+      <span class="p-category">Cheatsheet</span>
+    </div>
+    <h1 class="p-name text-4xl md:text-5xl font-bold tracking-tight text-stone-900 dark:text-white font-heading"
+      itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content">
+  <div class="e-content prose prose-lg prose-stone dark:prose-invert max-w-none" itemprop="articleBody">
     {{ content }}
   </div>
 

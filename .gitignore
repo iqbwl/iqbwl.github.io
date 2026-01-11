@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 public
+node_modules
+assets/css/tailwind.css

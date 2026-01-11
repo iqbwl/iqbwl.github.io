@@ -11,9 +11,9 @@ I write about things I'm learning, problems I've solved, and random thoughts tha
 Hope you find something interesting here.
 
 ## Built with
-
-- **Jekyll {{ jekyll.version }}** - Static site generator
-- **Custom theme** - Standalone, no dependencies
+- **Jekyll** - Static site generator
+- **Tailwind CSS** - Utility-first CSS framework
+- **PostCSS & Autoprefixer** - CSS processing
 - **Netlify** - Hosting and deployment
 
 ## Get in Touch

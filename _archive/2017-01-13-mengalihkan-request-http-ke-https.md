@@ -5,7 +5,7 @@ author: iqbwl
 ---
 Beberapa hari lalu beli hosting dan gratis SSL dari **Let's Encrypt** di [**IDHosts.co.id**](http://idhosts.co.id) dan langsung konfigurasi supaya SSLnya aktif.
 
-![HTTPS](/migrated/blog/img/https-img.png)
+![HTTPS](/static/img/migrated/blog/img/https-img.png)
 
 Setelah aktif domain saya sudah bisa diakses melalui `https://iqbalbirrul.web.id` namun jika diakses menggunakan protokol `http://` saja tidak langsung mengarah ke `https://iqbalbirrul.web.id`, dan untuk mengatasinya saya mencari cara di google dan menemukan cara untuk mengalihkan request `http` ke `https`. Berikut caranya.
 

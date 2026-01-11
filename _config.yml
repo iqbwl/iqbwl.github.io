@@ -80,12 +80,6 @@ defaults:
       layout: "learning"
 
 
-# SCSS compilation settings
-sass:
-  quiet_deps: true              # Suppress dependency warnings
-  silence_deprecations: [import] # Silence @import deprecation warnings
-  style: compressed              # Minify CSS in production
-
 permalink: /:slug
 
 # Navigation menu
@@ -112,10 +106,12 @@ header_pages:
         url: https://abc.web.id/tools/qr-generator
         external: true
 
+
 # Files and folders to exclude from build
 exclude:
   # Git files
   - .gitignore
+  - .github/
   - .git/
   # Jekyll cache
   - .jekyll-cache/
@@ -127,6 +123,8 @@ exclude:
   - Gemfile.lock
   - gemfiles/
   - node_modules/
+  - package.json
+  - package-lock.json
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
@@ -140,6 +138,9 @@ exclude:
   - public/
   # IDE
   - .vscode/
+  # Tailwind Assets
+  - src/
+  - tailwind.config.js
 
 destination: ./public
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"

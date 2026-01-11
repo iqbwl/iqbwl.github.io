@@ -1,20 +1,21 @@
-<footer class="site-footer h-card">
+<footer
+  class="site-footer h-card py-6 border-t border-stone-200 dark:border-white/10 mt-auto bg-white/50 dark:bg-stone-900/50 backdrop-blur-sm">
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
-  <div class="wrapper">
-    <div class="footer-content">
-      {%- if site.title %}
-      <div class="footer-info">
-        <div class="footer-author">
-          <span class="p-name">&copy; {{ 'now' | date: "%Y" }} - {{ site.title | escape }}</span>
-        </div>
-        <div class="footer-stack">
-          <span>Built with</span>
-          <img src="/static/icon/jekyll.svg" alt="Jekyll" class="stack-icon">
-          <span>Jekyll {{ jekyll.version }}</span>
-        </div>
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+    {%- if site.title %}
+    <div
+      class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-stone-500 dark:text-stone-400">
+      <div>
+        <span class="p-name font-medium">&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}.</span>
+        <span class="ml-1">All rights reserved.</span>
       </div>
-      {%- endif %}
+      <div class="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
+        <span>Built with</span>
+        <img src="/static/icon/jekyll.svg" alt="Jekyll" class="h-4 w-4 dark:invert">
+        <span>Jekyll {{ jekyll.version }}</span>
+      </div>
     </div>
+    {%- endif %}
   </div>
 </footer>

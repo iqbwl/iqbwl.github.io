@@ -3,7 +3,7 @@ title: Browsing Melalui Terminal Linux? Coba Deh!!
 layout: archive
 author: iqbwl
 ---
-![Elinks](/migrated/blog/img/elinks.png)
+![Elinks](/static/img/migrated/blog/img/elinks.png)
 
 Ok langsung saja, udah ada yang pernah Browsing di Terminal Linux? Saya rasa sudah banyak yang pernah mencobanya.
 
@@ -15,7 +15,7 @@ sudo apt-get install elinks
 
 ika sudah terinstall, buka `elinks` dengan mengetikan perintah `elinks` di Terminal, maka akan muncul tampilan seperti gambar di bawah.
 
-![Masukan URL](/migrated/blog/img/elinks-1.png)
+![Masukan URL](/static/img/migrated/blog/img/elinks-1.png)
 
 Bisa juga dengan menggunakan perintah `elinks namadomain.com`.
 
@@ -32,10 +32,10 @@ Tombol penggunaan:
 
 Ini screenshot hasil Browsing saya di `Elinks`
 
-![Facebook](/migrated/blog/img/elinks-4.png)
+![Facebook](/static/img/migrated/blog/img/elinks-4.png)
 
-![Google](/migrated/blog/img/elinks-5.png)
+![Google](/static/img/migrated/blog/img/elinks-5.png)
 
-![Google](/migrated/blog/img/elinks-6.png)
+![Google](/static/img/migrated/blog/img/elinks-6.png)
 
 Semoga bermanfaat, thanks :) .

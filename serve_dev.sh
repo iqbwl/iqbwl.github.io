@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "🚧 Starting Jekyll in development mode with drafts and Jekyll Admin..."
-bundle exec jekyll serve --config _config.yml,_config_dev.yml
+echo "🚧 Starting Jekyll + Tailwind in development mode..."
+npx concurrently "npm run watch:css" "bundle exec jekyll serve --livereload --config _config.yml,_config_dev.yml"

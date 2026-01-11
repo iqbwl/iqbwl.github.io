@@ -4,24 +4,12 @@ title: 404 page not found
 permalink: /404
 ---
 
-<style>
-  .error-container {
-    text-align: center;
-    padding: 6rem 2rem;
-    max-width: 600px;
-    margin: 0 auto;
-  }
+<div class="flex flex-col items-center justify-center py-20 md:py-32 text-center">
+  <h1 class="text-6xl md:text-8xl font-bold font-heading text-stone-900 dark:text-white mb-6">404</h1>
+  <p class="text-xl text-stone-600 dark:text-stone-400 mb-10 font-medium">Page not found.</p>
 
-  .error-message {
-    font-size: 1.125rem;
-    color: var(--text-main);
-    opacity: 0.7;
-    margin: 0;
-  }
-</style>
-
-<div class="error-container">
-  <p class="error-message">
-    Page not found.
-  </p>
+  <a href="{{ '/' | relative_url }}"
+    class="text-sm font-medium text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white transition-colors">
+    ← Back to Home
+  </a>
 </div>

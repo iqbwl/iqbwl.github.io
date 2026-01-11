@@ -33,13 +33,23 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          source: ./
-          destination: ./_site
+          node-version: '20'
+          cache: 'npm'
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build CSS
+        run: npm run build:css
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --config _config.yml,_config_prod.yml
+        env:
+          JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   # Deployment job
   deploy:

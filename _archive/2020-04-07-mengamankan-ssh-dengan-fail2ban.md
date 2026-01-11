@@ -84,7 +84,7 @@ Untuk melihat status jail fail2ban dapat menggunakan perintah berikut:
 fail2ban-client status sshd
 ```
 
-![Jail status](/migrated/blog/img/fail2ban-jail-status.png)
+![Jail status](/static/img/migrated/blog/img/fail2ban-jail-status.png)
 
 Masukan perintah berikut untuk melihat log fail2ban:
 
@@ -92,7 +92,7 @@ Masukan perintah berikut untuk melihat log fail2ban:
 tail -f /var/log/fail2ban.log
 ```
 
-![Log fail2ban](/migrated/blog/img/fail2ban-banned-ip.png)
+![Log fail2ban](/static/img/migrated/blog/img/fail2ban-banned-ip.png)
 
 ### Unban IP
 

@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "bundle install && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml"
+  command = "npm install && npm run build:css && bundle install && JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml"
 
 [[redirects]]
   from = "https://iqbwl.netlify.app/*"

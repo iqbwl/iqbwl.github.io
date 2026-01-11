@@ -5,11 +5,11 @@ author: iqbwl
 ---
 [BunsenLabs](https://www.bunsenlabs.org) merupakan Distro Linux turunan Debian "Jessie". Distro ini adalah lanjutan dari Distro Linux [Crunchbang](http://distrowatch.com/crunchbang). Versi rilis terbarunya yaitu Hydrogen RC2.
 
-![BunsenLabs](/migrated/blog/img/bunsenlabs.png)
+![BunsenLabs](/static/img/migrated/blog/img/bunsenlabs.png)
 
 Distro ini sangat ringan karena menggunakan [Openbox](http://openbox.org/wiki/Main_Page) sebagai window managernya. Dan juga menggunakan Thunar sebagai File Managernya.
 
-![Thunar](/migrated/blog/img/bunsenlabs-thunar.png)
+![Thunar](/static/img/migrated/blog/img/bunsenlabs-thunar.png)
 
 Aplikasi lain yang terinstall pada BunsenLabs yaitu tint2 panel, conky system monitor, iceweasel, vlc, dan lain lain. Juga dilengkapi software editing seperti Inkscape dan Gimp.
 

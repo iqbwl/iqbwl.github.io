@@ -82,7 +82,7 @@ Kemudian akan muncul form untuk memasukan credential, karena sebelumnya remote y
 
 Apabila sudah selesai push, cek pada laman repository github/gitlab. Sebagai contoh file yang sudah di*push* ada pada gambar dibawah ini.
 
-![File Repository](/migrated/blog/img/github_sample_repo-1.png)
+![File Repository](/static/img/migrated/blog/img/github_sample_repo-1.png)
 
 Selesai, semoga bermanfaat.
 

@@ -3,7 +3,7 @@ title: Server Block Nginx
 layout: archive
 author: iqbwl
 ---
-![Nginx Logo https://dwglogo.com](/migrated/blog/img/nginx-logo.png)
+![Nginx Logo https://dwglogo.com](/static/img/migrated/blog/img/nginx-logo.png)
 
 Berikut contoh konfigurasi server block Nginx:
 

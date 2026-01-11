@@ -5,7 +5,7 @@ author: iqbwl
 ---
 Sebenarnya, di GitHub sudah tersedia ssl gratis untuk setiap halaman yang dibuat (_GitHub Pages_). Namun untuk yang menggunakan nama domain sendiri atau custom domain, github tidak menyediakan ssl gratis.
 
-![Cloudflare](/migrated/blog/img/ssl-cloudflare.png)
+![Cloudflare](/static/img/migrated/blog/img/ssl-cloudflare.png)
 
 Contoh halaman github menggunakan ssl : `https://iqbalbirrul.github.io`
 Lihat pada `https` yang menandakan ssl-nya aktif, sedangkan untuk custom domain, `http://www.iqbalbirrul.com` tidak diberi ssl.
@@ -19,26 +19,26 @@ Saya sendiri menggunakan ssl karena senang saja dan ingin terlihat keren saja bl
 Langkah pertama, buatlah akun [Cloudflare](https://cloudflare.com) dan setting agar domain mengarah ke `name server` Cloudflare.
 Jika domain sudah mengarah ke `name server` Cloudflare, masuk ke menu **DNS** dan setting dns di Cloudflare agar mengarah ke GitHub Pages , contoh seperti pada gambar dibawah ini.
 
-![DNS Cloudflare](/migrated/blog/img/ssl-cloudflare-1.png)
+![DNS Cloudflare](/static/img/migrated/blog/img/ssl-cloudflare-1.png)
 
 Artinya, situs GitHub Pages kita akan melewati Cloudflare, baru kemudian diteruskan ke client.
 Setelah domain berhasil di arahkan ke GitHub Pages, masuk ke menu **Crypto**, lalu atur ssl-nya menjadi **Full**.
 
-![Mengaktifkan SSL](/migrated/blog/img/ssl-cloudflare-2.png)
+![Mengaktifkan SSL](/static/img/migrated/blog/img/ssl-cloudflare-2.png)
 
 Ada 4 pilihan, `Off, Flexible, Full, dan Full (strict)`. Perbedaannya seperti ini:
 
-![Cloudflare SSL Modules](/migrated/blog/img/ssl-cloudflare-3.png)
+![Cloudflare SSL Modules](/static/img/migrated/blog/img/ssl-cloudflare-3.png)
 
 ##### Membuat Page Rules
 Agar `http` diarahkan ke `https`, maka buatlah page rules. Masuk ke menu **Page Rules**, kemudian tambahkan _rules_ seperti ini.
 
-![301 - Permanent Redirect](/migrated/blog/img/ssl-cloudflare-4.png)
-![Always Use HTTPS](/migrated/blog/img/ssl-cloudflare-5.png)
+![301 - Permanent Redirect](/static/img/migrated/blog/img/ssl-cloudflare-4.png)
+![Always Use HTTPS](/static/img/migrated/blog/img/ssl-cloudflare-5.png)
 
 Tambahkan juga _rules_ untuk chace-nya, seperti ini:
 
-![Chace Everything](/migrated/blog/img/ssl-cloudflare-6.png)
+![Chace Everything](/static/img/migrated/blog/img/ssl-cloudflare-6.png)
 
 ##### Mengubah CNAME
 Karena kita ingin menggunakan alamat domain dengan `https`, maka perlu mengubah konfigurasi pada setelan situs.
@@ -57,7 +57,7 @@ www.iqbalbirrul.com
 
 Masukan ke dalam folder `/source`, lalu generate dan deploy. Dan ssl-pun sudah aktif sepenuhnya.
 
-![Iqbalbirrul.com](/migrated/blog/img/ssl-cloudflare-7.png)
+![Iqbalbirrul.com](/static/img/migrated/blog/img/ssl-cloudflare-7.png)
 
 Selesai, semoga bermanfaat.
 

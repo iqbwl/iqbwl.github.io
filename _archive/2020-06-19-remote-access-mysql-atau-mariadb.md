@@ -45,7 +45,7 @@ Cek privileges dari user tersebut:
 select * from user where user='username' \G
 ```
 
-![Privileges 1](/migrated/blog/img/mariadb-privileges1.png)
+![Privileges 1](/static/img/migrated/blog/img/mariadb-privileges1.png)
 
 User tersebut belum mendapatkan hak akses. Tambahkan hak akses terlebih dahulu pada user tersebut.
 
@@ -60,7 +60,7 @@ Cek kembali privileges dari user tersebut.
 select * from user where user='username' \G
 ```
 
-![Privileges 2](/migrated/blog/img/mariadb-privileges2.png)
+![Privileges 2](/static/img/migrated/blog/img/mariadb-privileges2.png)
 
 Sekarang user tersebut sudah mendapatkan hak akses penuh pada MySQL/MariaDB.
 
@@ -72,7 +72,7 @@ Tes koneksi ke database menggunakan telnet:
 $ telnet IP_DATABASE 3306
 ```
 
-![Testing 1](/migrated/blog/img/mariadb-testing1.png)
+![Testing 1](/static/img/migrated/blog/img/mariadb-testing1.png)
 
 Tes login ke MySQL/MariaDB:
 
@@ -80,6 +80,6 @@ Tes login ke MySQL/MariaDB:
 $ mysql -h IP_DATABASE -u username -p
 ```
 
-![Testing 2](/migrated/blog/img/mariadb-testing2.png)
+![Testing 2](/static/img/migrated/blog/img/mariadb-testing2.png)
 
 Selesai.

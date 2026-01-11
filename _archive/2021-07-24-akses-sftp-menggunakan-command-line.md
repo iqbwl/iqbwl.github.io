@@ -17,7 +17,7 @@ Jika SSH pada server menggunakan custom port, maka tambahkan option `-P [PORT]`,
 sftp -P 2022 user@192.168.11.1
 ```
 
-![SFTP](/migrated/blog/img/sftp-test.png)
+![SFTP](/static/img/migrated/blog/img/sftp-test.png)
 
 Untuk list perintah-perintah yang digunakan pada console sftp sama dengan ftp, silakan cek artikel berikut: [https://iqbal.id/akses-ftp-menggunakan-command-line-di-linux](/akses-ftp-menggunakan-command-line-di-linux)
 

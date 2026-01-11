@@ -5,7 +5,7 @@ author: iqbwl
 ---
 **GitLab Community Edition (CE)** adalah platform pengembangan end-to-end perangkat lunak open source dengan built-in version control, issue tracking, code review, CI/CD, dan banyak lagi.
 
-![GitLab CE](/migrated/blog/img/gitlab-ce.png)
+![GitLab CE](/static/img/migrated/blog/img/gitlab-ce.png)
 
 # Requirments
 
@@ -167,9 +167,9 @@ gitlab-ctl reconfigure
 
 Setelah proses reconfigure selesai, semua pengguna akan otomatis menggunakan protocol HTTPS.
 
-![https://repo.iqbal.es](/migrated/blog/img/gitlab-ce-site.png)
+![https://repo.iqbal.es](/static/img/migrated/blog/img/gitlab-ce-site.png)
 
-![Dashboard GitLab CE](/migrated/blog/img/gitlab-ce-dashboard.png)
+![Dashboard GitLab CE](/static/img/migrated/blog/img/gitlab-ce-dashboard.png)
 
 Untuk installasi pada sistem operasi lain, silakan ikuti tautan berikut:
 

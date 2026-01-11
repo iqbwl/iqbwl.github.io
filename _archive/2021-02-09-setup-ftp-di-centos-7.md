@@ -83,6 +83,6 @@ systemctl restart vsftpd
 ftp> open IP_ADDRESS_or_HOSTNAME
 ```
 
-![ftp](/migrated/blog/img/ftp-cli-test1.png)
+![ftp](/static/img/migrated/blog/img/ftp-cli-test1.png)
 
 Semoga bermanfaat.

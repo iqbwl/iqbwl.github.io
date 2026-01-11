@@ -3,7 +3,7 @@ title: Replikasi Master-Master MariaDB + Nginx Reverse Proxy untuk Database
 layout: archive
 author: iqbwl
 ---
-![Master-Master](/img/db-rep/db-master-master-nginx.png)
+![Master-Master](/static/img/db-rep/db-master-master-nginx.png)
 
 List server:
 
@@ -173,13 +173,13 @@ stream {
 ```
 
 Lihat gambar dibawah:
-![Nginx Proxy](/img/db-rep/nginx-proxy-db.png)
+![Nginx Proxy](/static/img/db-rep/nginx-proxy-db.png)
 
 Cek port database dengan perintah `netstat -tulpn | grep nginx`:
-![Port](/img/db-rep/nginx-port-db.png)
+![Port](/static/img/db-rep/nginx-port-db.png)
 
 Untuk penggunaan database, berikan priveleges pada user database ke IP Address dari Server Nginx Reverse Proxy.
 
-![Mysql console](/img/db-rep/mysql-console.png)
+![Mysql console](/static/img/db-rep/mysql-console.png)
 
 Selesai.

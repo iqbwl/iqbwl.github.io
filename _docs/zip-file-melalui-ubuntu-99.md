@@ -5,7 +5,7 @@ author: iqbwl
 ---
 Untuk install zip, silakan install menggunakan perintah dibawah.
 
-![Zip](/img/zip/zip.png)
+![Zip](/static/img/zip/zip.png)
 
 Ubuntu
 ```
