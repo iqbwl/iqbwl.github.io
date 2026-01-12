@@ -141,6 +141,7 @@ exclude:
   # Tailwind Assets
   - src/
   - tailwind.config.js
+  - tutorial.md
 
 destination: ./public
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
