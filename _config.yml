@@ -15,8 +15,7 @@ collections:
     output: true
   archive:
     output: true
-  docs:
-    output: true
+
   learning:
     output: true
 
@@ -66,12 +65,7 @@ defaults:
     values:
       layout: "archive"
       permalink: /archive/:slug
-  # Docs defaults
-  - scope:
-      path: ""
-      type: "docs"
-    values:
-      layout: "docs"
+
   # Learning defaults
   - scope:
       path: ""
@@ -93,8 +87,7 @@ header_pages:
     sub_menu:
       - title: Archive
         url: /archive
-      - title: Docs
-        url: /docs
+
       - title: Learning
         url: /learning
   - title: Tools

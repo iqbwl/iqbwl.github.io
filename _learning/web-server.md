@@ -1,6 +1,6 @@
 ---
 title: Web Server
-layout: docs
+layout: learning
 author: iqbwl
 ---
 Web Server is software that functions to receive requests from users via a web client or browser, then it will be responded by providing display/output according to the request sent to the server.
