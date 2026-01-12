@@ -1,5 +1,7 @@
 ---
 title: Mengapa Vaultwarden?
+layout: post
+author: iqbwl
 ---
 
 Di dunia password manager, ada banyak pilihan seperti Bitwarden, 1Password, LastPass, dan lainnya. Lalu muncul pertanyaan: kenapa harus Vaultwarden? Kenapa tidak langsung Bitwarden atau yang lain?

@@ -1,4 +1,6 @@
 ---
+layout: post
+author: iqbwl
 title: Cara Pakai Vaultwarden
 ---
 
