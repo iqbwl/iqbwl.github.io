@@ -125,6 +125,12 @@ Invoke-WebRequest url -OutFile file      # Download file
 Invoke-WebRequest url -Method POST -Body $data  # POST request
 ```
 
+### SSH
+```powershell
+ssh user@host                            # Connect via SSH
+type $env:USERPROFILE\.ssh\id_rsa.pub | ssh user@domain.com "cat >>.ssh/authorized_keys" # Copy SSH key
+```
+
 ## Working with Objects
 
 ### Pipeline
