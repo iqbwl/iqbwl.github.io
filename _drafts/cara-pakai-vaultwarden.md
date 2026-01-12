@@ -2,6 +2,8 @@
 layout: post
 author: iqbwl
 title: Cara Pakai Vaultwarden
+categories:
+- vaultwarden
 ---
 
 Setelah Vaultwarden berhasil kamu install, amankan, dan sudah punya backup rutin, sekarang waktunya kita bahas cara menggunakannya di berbagai perangkat. Vaultwarden ini fleksibel banget, karena kompatibel penuh dengan semua aplikasi resmi Bitwarden. Jadi kamu bisa memakainya di browser, desktop, dan HP dengan mudah.

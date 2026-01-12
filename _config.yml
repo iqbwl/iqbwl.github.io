@@ -87,7 +87,6 @@ header_pages:
     sub_menu:
       - title: Archive
         url: /archive
-
       - title: Learning
         url: /learning
   - title: Tools
