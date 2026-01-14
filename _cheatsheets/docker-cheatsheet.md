@@ -344,6 +344,67 @@ volumes:
 9. **Limit container resources** with `--memory` and `--cpus`
 10. **Use read-only filesystems** when possible: `--read-only`
 
+## Docker Swarm
+
+### Swarm Management
+```bash
+docker swarm init                         # Initialize swarm
+docker swarm join --token <token> <ip>:2377 # Join swarm as worker/manager
+docker swarm join-token worker            # View worker join token
+docker swarm join-token manager           # View manager join token
+docker swarm leave                        # Leave swarm (worker)
+docker swarm leave --force                # Leave swarm (manager)
+docker swarm update --autolock=true       # Enable autolock
+docker swarm unlock                       # Unlock swarm
+```
+
+### Node Management
+```bash
+docker node ls                            # List nodes
+docker node inspect <node>                # Inspect node
+docker node ps <node>                     # List tasks on node
+docker node promote <node>                # Promote worker to manager
+docker node demote <node>                 # Demote manager to worker
+docker node update --availability drain <node> # Drain node
+docker node update --availability active <node> # Activate node
+docker node rm <node>                     # Remove node
+```
+
+### Service Management
+```bash
+docker service create --name <name> <image> # Create service
+docker service ls                         # List services
+docker service ps <service>               # List tasks of service
+docker service inspect <service>          # Inspect service
+docker service logs <service>             # View service logs
+docker service scale <service>=<replicas> # Scale service
+docker service update --image <image> <service> # Update service image
+docker service update --publish-add <port> <service> # Add port mapping
+docker service rollback <service>         # Rollback service
+docker service rm <service>               # Remove service
+```
+
+### Stack Management
+```bash
+docker stack deploy -c <file> <name>      # Deploy stack
+docker stack ls                           # List stacks
+docker stack services <stack>             # List services in stack
+docker stack ps <stack>                   # List tasks in stack
+docker stack rm <stack>                   # Remove stack
+```
+
+### Secrets & Configs
+```bash
+docker secret create <name> <file>        # Create secret
+docker secret ls                          # List secrets
+docker secret inspect <name>              # Inspect secret
+docker secret rm <name>                   # Remove secret
+docker config create <name> <file>        # Create config
+docker config ls                          # List configs
+docker config inspect <name>              # Inspect config
+docker config rm <name>                   # Remove config
+```
+
 ## Resources
 
 - Official Documentation: https://docs.docker.com
