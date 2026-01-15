@@ -92,7 +92,7 @@ header_pages:
   - title: Tools
     sub_menu:
       - title: Split Bill
-        url: https://abc.web.id/tools/split-bill
+        url: https://sb.iqbwl.web.id
         external: true
       - title: QR Code Generator
         url: https://abc.web.id/tools/qr-generator
