@@ -1,16 +1,24 @@
 <footer
-  class="site-footer h-card py-6 border-t border-stone-200 dark:border-white/10 mt-auto bg-white/50 dark:bg-stone-900/50 backdrop-blur-sm">
+  class="site-footer h-card py-4 border-t border-stone-200 dark:border-white/10 mt-auto bg-white/50 dark:bg-stone-900/50 backdrop-blur-sm">
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
   <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
     {%- if site.title %}
     <div
       class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-stone-500 dark:text-stone-400">
-      <div>
-        <span class="p-name font-medium">&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}.</span>
-        <span class="ml-1">All rights reserved.</span>
+      <div class="flex flex-col md:block items-center text-center md:text-left">
+        <span>
+          <span class="p-name font-medium">&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}</span>
+        </span>
+        <div class="mt-2 md:mt-0 md:inline-block">
+          <span class="hidden md:inline mx-2 text-stone-300 dark:text-stone-700">|</span>
+          <a href="/privacy-policy/" class="hover:text-stone-900 dark:hover:text-white transition-colors">Privacy
+            Policy</a>
+          <span class="mx-1 text-stone-300 dark:text-stone-700">&middot;</span>
+          <a href="/contact/" class="hover:text-stone-900 dark:hover:text-white transition-colors">Contact</a>
+        </div>
       </div>
-      <div class="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity">
+      <div class="flex items-center gap-2 opacity-80 hover:opacity-100 transition-opacity text-xs">
         <span>Built with</span>
         <img src="/static/icon/jekyll.svg" alt="Jekyll" class="h-4 w-4 dark:invert">
         <span>Jekyll {{ jekyll.version }}</span>

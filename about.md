@@ -4,16 +4,10 @@ title: About
 permalink: /about
 ---
 
-Hey there! This is my digital notebook.
+Hi, I'm Iqbwl.
 
-I write about things I'm learning, problems I've solved, and random thoughts that seem worth keeping. It's not a tutorial site — just my way of organizing what's in my head.
+This is my personal blog where I document my journey in technology.
 
-Hope you find something interesting here.
+I love tinkering with Linux and exploring open source. Instead of keeping my notes hidden away, I share them here—hoping they might be useful to you too.
 
-### Get in Touch
-
-If you'd like to reach out, feel free to contact me:
-
-- **Telegram**: [@iqbwld](https://t.me/iqbwld)
-
-I usually respond within a day or two.
+Thanks for stopping by!

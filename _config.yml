@@ -8,7 +8,7 @@ url: "https://iqbwl.web.id"
 
 # Site description for SEO
 description: >
-  My digital notebook. I write about things I'm learning, problems I'm solving, and random thoughts that seem worth keeping.
+  A space where I share my journey in tech and Linux experiments.
 
 collections:
   cheatsheets:
@@ -87,7 +87,7 @@ header_pages:
     sub_menu:
       - title: Archive
         url: /archive
-      - title: Learning
+      - title: Learning 
         url: /learning
   - title: Tools
     sub_menu:
