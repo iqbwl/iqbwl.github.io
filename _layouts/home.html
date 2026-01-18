@@ -14,7 +14,7 @@ layout: base
   </div>
   {% endif %}
 
-  {% include ad-slot.html %}
+
 
   {% if site.paginate %}
   {% assign posts = paginator.posts %}
@@ -28,7 +28,7 @@ layout: base
   </h2>
   {%- endif -%}
 
-  <div class="space-y-10">
+  <div class="space-y-5">
     {%- assign date_format = "%Y-%m-%d" -%}
     {%- for post in posts -%}
     <article class="group relative flex flex-col items-start transition-all">

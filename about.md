@@ -4,10 +4,10 @@ title: About
 permalink: /about
 ---
 
-Hi, I'm Iqbwl.
+Halo, saya Iqbwl.
 
-This is my personal blog where I document my journey in technology.
+Ini adalah blog pribadi tempat saya mendokumentasikan perjalanan saya di dunia teknologi.
 
-I love tinkering with Linux and exploring open source. Instead of keeping my notes hidden away, I share them here—hoping they might be useful to you too.
+Saya suka ngoprek Linux dan menjelajahi open source. Daripada catatan saya tersimpan begitu saja, saya membagikannya di sini—harapannya bisa bermanfaat juga buat kamu.
 
-Thanks for stopping by!
+Terima kasih sudah mampir!

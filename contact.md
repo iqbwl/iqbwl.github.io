@@ -4,15 +4,15 @@ title: Contact
 permalink: /contact/
 ---
 
-If you have any questions, suggestions, or just want to say hello, feel free to reach out!
+Kalau kamu punya pertanyaan, saran, atau sekadar ingin menyapa, jangan ragu untuk menghubungi saya!
 
-You can contact me via email at:
+Kamu bisa menghubungi saya lewat email di:
 
 **[iqbwl@silent.web.id](mailto:iqbwl@silent.web.id)**
 
-I try to respond to all emails within 24-48 hours.
+Saya usahakan membalas semua email dalam waktu 24-48 jam.
 
-You can also find me on:
+Kamu juga bisa menemukan saya di:
 
 *   [GitHub](https://github.com/iqbwl)
 *   [Telegram](https://t.me/iqbwld)
