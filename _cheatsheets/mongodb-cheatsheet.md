@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: MongoDB Command Cheatsheet
-description: Essential MongoDB commands for database operations
+description: MongoDB is a source-available cross-platform document-oriented database program.
 ---
 
 
-A comprehensive reference for MongoDB commands and operations.
+MongoDB is a source-available cross-platform document-oriented database program.
+
 
 ## Database Operations
 

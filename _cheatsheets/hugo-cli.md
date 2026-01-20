@@ -1,11 +1,14 @@
 ---
 layout: cheatsheet
 title: Hugo CLI Cheatsheet
-description: Essential commands for Hugo static site generator
+description: Hugo is one of the most popular open-source static site generators, known for its amazing speed and flexibility.
 ---
 
-{% raw %}
+Hugo is one of the most popular open-source static site generators, known for its amazing speed and flexibility.
 
+
+
+{% raw %}
 
 Essential commands for Hugo static site generator - the world's fastest framework for building websites.
 

@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Nginx Command Cheatsheet
-description: Essential Nginx commands and configuration for web servers
+description: Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy, and HTTP cache.
 ---
 
 
-A comprehensive reference for Nginx web server commands and configuration.
+Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy, and HTTP cache.
+
 
 ## Basic Commands
 

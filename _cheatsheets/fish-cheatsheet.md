@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Fish Cheatsheet
-description: Essential Fish shell commands, syntax, and configuration
+description: Fish (Friendly Interactive SHell) is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family.
 ---
 
 
-A comprehensive reference for the Friendly Interactive SHell (fish).
+Fish (Friendly Interactive SHell) is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family.
+
 
 ## Basics
 

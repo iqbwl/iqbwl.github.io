@@ -1,8 +1,10 @@
 ---
 layout: cheatsheet
 title: Fail2ban Cheatsheet
-description: Essential fail2ban commands and configurations for protecting your server
+description: Fail2ban is an intrusion prevention software framework that protects computer servers from brute-force attacks by banning IP addresses that show the malicious signs.
 ---
+
+Fail2ban is an intrusion prevention software framework that protects computer servers from brute-force attacks by banning IP addresses that show the malicious signs.
 
 ## Installation
 

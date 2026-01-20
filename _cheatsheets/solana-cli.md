@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Solana CLI Cheatsheet
-description: Essential commands for Solana blockchain development and operations
+description: Solana CLI includes tools to interact with the Solana cluster, manage keys, and deploy programs.
 ---
 
 
-Essential commands for Solana blockchain development and operations.
+Solana CLI includes tools to interact with the Solana cluster, manage keys, and deploy programs.
+
 
 ## Installation
 

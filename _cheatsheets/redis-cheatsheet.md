@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Redis Command Cheatsheet
-description: Essential Redis commands for caching and data structures
+description: Redis is an open source, in-memory data structure store, used as a database, cache, and message broker.
 ---
 
 
-A comprehensive reference for Redis commands and data structures.
+Redis is an open source, in-memory data structure store, used as a database, cache, and message broker.
+
 
 ## Connection & Server
 

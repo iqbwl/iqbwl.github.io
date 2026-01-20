@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Python Command Cheatsheet
-description: Essential Python syntax and commands
+description: Python is a high-level, general-purpose programming language.
 ---
 
 
-A comprehensive reference for Python programming.
+Python is a high-level, general-purpose programming language.
+
 
 ## Basics
 

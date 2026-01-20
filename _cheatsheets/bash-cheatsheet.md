@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Bash Scripting Cheatsheet
-description: Essential Bash scripting syntax and commands
+description: Bash (Bourne Again SHell) is a Unix shell and command language, widely used as the default login shell for most Linux distributions.
 ---
 
 
-A comprehensive reference for Bash shell scripting.
+Bash (Bourne Again SHell) is a Unix shell and command language, widely used as the default login shell for most Linux distributions.
+
 
 ## Basics
 

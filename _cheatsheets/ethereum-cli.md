@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Ethereum CLI Cheatsheet
-description: 'Essential commands for Ethereum development using Geth, web3.js, and Hardhat'
+description: The Ethereum CLI tools allow interaction with the Ethereum blockchain, enabling account management, transaction sending, and smart contract deployment.
 ---
 
 
-Essential commands for Ethereum development using Geth, web3.js, and Hardhat.
+The Ethereum CLI tools allow interaction with the Ethereum blockchain, enabling account management, transaction sending, and smart contract deployment.
+
 
 ## Geth (Go Ethereum)
 

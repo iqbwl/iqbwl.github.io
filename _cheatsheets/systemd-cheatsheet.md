@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Systemd Command Cheatsheet
-description: Essential systemd commands for service management
+description: Systemd is a system and service manager for Linux operating systems.
 ---
 
 
-A comprehensive reference for systemd service management.
+Systemd is a system and service manager for Linux operating systems.
+
 
 ## Service Management
 

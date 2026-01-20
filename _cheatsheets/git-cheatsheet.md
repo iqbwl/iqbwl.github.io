@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Git Command Cheatsheet
-description: Essential Git commands for version control
+description: Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 ---
 
 
-A comprehensive reference for Git version control commands.
+Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
 
 ## Configuration
 

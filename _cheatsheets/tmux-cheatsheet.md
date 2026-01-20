@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Tmux Command Cheatsheet
-description: Essential tmux commands and shortcuts for terminal multiplexing
+description: tmux is a terminal multiplexer that lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 ---
 
 
-A comprehensive reference for tmux terminal multiplexer commands and shortcuts.
+tmux is a terminal multiplexer that lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
+
 
 ## Getting Started
 

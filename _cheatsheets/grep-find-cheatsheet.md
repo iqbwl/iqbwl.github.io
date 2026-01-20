@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Grep & Find Command Cheatsheet
-description: Essential grep and find commands for searching
+description: grep and find are powerful command-line utilities for searching plain-text data sets and finding files in a directory hierarchy.
 ---
 
 
-A comprehensive reference for grep and find commands.
+grep and find are powerful command-line utilities for searching plain-text data sets and finding files in a directory hierarchy.
+
 
 ## Grep Basics
 

@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: WSL Command Cheatsheet
-description: Essential commands for managing Windows Subsystem for Linux (WSL)
+description: Windows Subsystem for Linux (WSL) is a feature of Windows that allows you to run a Linux environment directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup.
 ---
 
 
-A comprehensive reference for managing Windows Subsystem for Linux (WSL), including installation, distribution management, interoperability, and configuration.
+Windows Subsystem for Linux (WSL) is a feature of Windows that allows you to run a Linux environment directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup.
+
 
 ## Installation & Setup
 

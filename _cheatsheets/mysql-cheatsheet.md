@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: MySQL/MariaDB Command Cheatsheet
-description: Essential MySQL and MariaDB commands for database management
+description: MySQL is an open-source relational database management system (RDBMS).
 ---
 
 
-A comprehensive reference for MySQL and MariaDB database commands.
+MySQL is an open-source relational database management system (RDBMS).
+
 
 ## Connection
 

@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: SSL/TLS & OpenSSL Cheatsheet
-description: Essential OpenSSL commands for SSL/TLS certificates
+description: SSL (Secure Sockets Layer) and its successor, TLS (Transport Layer Security), are protocols for establishing authenticated and encrypted links between networked computers.
 ---
 
 
-A comprehensive reference for SSL/TLS and OpenSSL commands.
+SSL (Secure Sockets Layer) and its successor, TLS (Transport Layer Security), are protocols for establishing authenticated and encrypted links between networked computers.
+
 
 ## Generate Private Keys
 

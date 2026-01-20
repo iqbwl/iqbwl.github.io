@@ -1,11 +1,14 @@
 ---
 layout: cheatsheet
 title: Docker Command Cheatsheet
-description: Essential Docker commands for container management
+description: Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.
 ---
 
-{% raw %}
+Docker is a set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.
 
+
+
+{% raw %}
 
 A comprehensive reference for Docker commands and best practices.
 

@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Neovim Cheatsheet
-description: Essential Neovim commands, Lua configuration, and plugin management.
+description: Neovim is a hyperextensible Vim-based text editor.
 ---
 
 
-A comprehensive reference for Neovim (nvim), focusing on Lua configuration and modern features.
+Neovim is a hyperextensible Vim-based text editor.
+
 
 ## Configuration
 

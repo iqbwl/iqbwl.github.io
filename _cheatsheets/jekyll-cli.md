@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Jekyll CLI Cheatsheet
-description: Essential commands for Jekyll static site generator
+description: Jekyll is a simple, blog-aware, static site generator meant for personal, project, or organization sites.
 ---
 
 
-Essential commands for Jekyll static site generator.
+Jekyll is a simple, blog-aware, static site generator meant for personal, project, or organization sites.
+
 
 ## Installation
 
@@ -443,114 +444,3 @@ touch _posts/$(date +%Y-%m-%d)-my-new-post.md
 
 # Add frontmatter
 cat > _posts/$(date +%Y-%m-%d)-my-new-post.md << EOF
----
-layout: post
-title: "My New Post"
-date: $(date +%Y-%m-%d)
-categories: blog
----
-
-Content here...
-EOF
-
-# Preview
-jekyll serve --drafts
-```
-
-### Local Development
-```bash
-# Start with live reload
-bundle exec jekyll serve --livereload --drafts
-
-# In another terminal, watch for changes
-# (automatic with --livereload)
-```
-
-### Production Build
-```bash
-# Clean old files
-jekyll clean
-
-# Build for production
-JEKYLL_ENV=production bundle exec jekyll build
-
-# Test build
-bundle exec htmlproofer ./_site --disable-external
-
-# Deploy
-# (copy _site/ to server)
-```
-
-## Troubleshooting
-
-### Common Issues
-```bash
-# Dependency errors
-bundle install
-bundle update
-
-# Permission errors
-gem install jekyll --user-install
-
-# Port already in use
-jekyll serve --port 4001
-
-# Regeneration not working
-jekyll serve --force_polling
-
-# Clear cache
-jekyll clean
-rm -rf .jekyll-cache
-```
-
-### Gemfile.lock Issues
-```bash
-# Remove lock file
-rm Gemfile.lock
-
-# Reinstall
-bundle install
-```
-
-## Useful Aliases
-
-```bash
-# Add to .bashrc or .zshrc
-alias jk='bundle exec jekyll'
-alias jks='bundle exec jekyll serve --livereload'
-alias jkb='JEKYLL_ENV=production bundle exec jekyll build'
-alias jkc='bundle exec jekyll clean'
-alias jkd='bundle exec jekyll serve --drafts --livereload'
-```
-
-## Configuration Examples
-
-### Basic _config.yml
-```yaml
-title: My Site
-description: Site description
-baseurl: ""
-url: "https://example.com"
-
-markdown: kramdown
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-```
-
-## Useful Resources
-
-- **Jekyll Docs**: https://jekyllrb.com/docs/
-- **Jekyll Themes**: https://jekyllthemes.io/
-- **GitHub Pages**: https://pages.github.com/
-- **Liquid Syntax**: https://shopify.github.io/liquid/
-- **Jekyll Talk**: https://talk.jekyllrb.com/

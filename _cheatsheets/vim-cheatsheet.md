@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Vim Command Cheatsheet
-description: Essential Vim commands and shortcuts for text editing
+description: Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient.
 ---
 
 
-A comprehensive reference for Vim text editor commands and shortcuts.
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient.
+
 
 ## Modes
 

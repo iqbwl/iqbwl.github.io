@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: PowerShell Command Cheatsheet
-description: Essential PowerShell commands and scripting syntax
+description: PowerShell is a cross-platform task automation solution and configuration management framework, consisting of a command-line shell and scripting language.
 ---
 
 
-A comprehensive reference for PowerShell commands and scripting.
+PowerShell is a cross-platform task automation solution and configuration management framework, consisting of a command-line shell and scripting language.
+
 
 ## Basics
 

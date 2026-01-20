@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: SSH Command Cheatsheet
-description: Essential SSH commands and configuration
+description: SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network.
 ---
 
 
-A comprehensive reference for SSH (Secure Shell) commands.
+SSH (Secure Shell) is a cryptographic network protocol for operating network services securely over an unsecured network.
+
 
 ## Basic Connection
 

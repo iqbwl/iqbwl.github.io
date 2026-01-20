@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: curl Command Cheatsheet
-description: Essential curl commands for HTTP requests and API testing
+description: cURL (Client URL) is a command-line tool and library for transferring data with URLs.
 ---
 
 
-A comprehensive reference for curl commands and HTTP operations.
+cURL (Client URL) is a command-line tool and library for transferring data with URLs.
+
 
 ## Basic Usage
 

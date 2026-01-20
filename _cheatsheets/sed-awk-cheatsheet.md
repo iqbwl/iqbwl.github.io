@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Sed & Awk Command Cheatsheet
-description: Essential sed and awk commands for text processing
+description: sed and awk are powerful text processing utilities in the Unix/Linux environment.
 ---
 
 
-A comprehensive reference for sed and awk text processing.
+sed and awk are powerful text processing utilities in the Unix/Linux environment.
+
 
 ## Sed Basics
 

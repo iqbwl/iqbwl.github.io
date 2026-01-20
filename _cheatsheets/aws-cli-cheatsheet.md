@@ -1,10 +1,11 @@
 ---
 layout: cheatsheet
 title: AWS CLI Command Cheatsheet
-description: Essential AWS CLI commands for cloud management
+description: The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services.
 ---
 
-A comprehensive reference for AWS Command Line Interface.
+The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services.
+
 
 ## Installation & Configuration
 

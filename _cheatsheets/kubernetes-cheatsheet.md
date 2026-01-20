@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Kubernetes (K8s) Command Cheatsheet
-description: Essential kubectl commands for Kubernetes cluster management
+description: Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management.
 ---
 
 
-A comprehensive reference for Kubernetes and kubectl commands.
+Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management.
+
 
 ## kubectl Basics
 

@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: IPTables Firewall Cheatsheet
-description: Essential IPTables commands for firewall management
+description: iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall.
 ---
 
 
-A comprehensive reference for IPTables firewall commands.
+iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall.
+
 
 ## Basic Commands
 

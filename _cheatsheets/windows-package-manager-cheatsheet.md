@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Windows Package Manager Cheatsheet
-description: Essential commands for Winget and Chocolatey
+description: Windows Package Manager (winget) is a comprehensive package manager solution that consists of a command line tool and a set of services for installing applications on Windows.
 ---
 
 
-A quick reference for managing software on Windows using Winget and Chocolatey.
+Windows Package Manager (winget) is a comprehensive package manager solution that consists of a command line tool and a set of services for installing applications on Windows.
+
 
 ## Winget (Windows Package Manager)
 

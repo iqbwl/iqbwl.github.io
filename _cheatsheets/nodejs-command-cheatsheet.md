@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Node.js Command Cheatsheet
-description: Essential CLI commands for Node.js, NPM, NVM, PM2, Yarn, Deno, and Bun
+description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 ---
 
 
-A comprehensive reference for the Node.js ecosystem command-line tools.
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
 
 ## NVM (Node Version Manager)
 

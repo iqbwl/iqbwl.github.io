@@ -1,10 +1,11 @@
 ---
 layout: cheatsheet
 title: Zip & Tar Command Cheatsheet
-description: Common commands for archiving and compressing files using zip and tar
+description: zip and tar are common file archiving and compression utilities.
 ---
 
-Reference for compressing and extracting files using `zip` and `tar` in Linux/Unix systems.
+zip and tar are common file archiving and compression utilities.
+
 
 ## Zip (Compress & Extract)
 

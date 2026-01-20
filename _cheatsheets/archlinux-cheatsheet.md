@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Arch Linux Cheatsheet
-description: Essential commands for Arch Linux, Pacman, AUR (Yay/Paru), and Flatpak
+description: Arch Linux is a lightweight and flexible Linux distribution that adheres to the KISS (Keep It Simple, Stupid) principle.
 ---
 
 
-A quick reference for Arch Linux package management and system maintenance.
+Arch Linux is a lightweight and flexible Linux distribution that adheres to the KISS (Keep It Simple, Stupid) principle.
+
 
 ## Pacman (Official Repositories)
 

@@ -1,10 +1,11 @@
 ---
 layout: cheatsheet
 title: Apache Command Cheatsheet
-description: Essential Apache commands and configuration for web servers
+description: Apache HTTP Server is a free and open-source cross-platform web server software, known for its reliability, flexibility, and widespread use.
 ---
 
-A comprehensive reference for Apache HTTP Server commands and configuration.
+Apache HTTP Server is a free and open-source cross-platform web server software, known for its reliability, flexibility, and widespread use.
+
 
 ## Basic Commands
 

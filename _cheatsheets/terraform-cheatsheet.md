@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Terraform Command Cheatsheet
-description: Essential Terraform commands for infrastructure as code
+description: Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.
 ---
 
 
-A comprehensive reference for Terraform infrastructure as code.
+Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.
+
 
 ## Basic Commands
 

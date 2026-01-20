@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: PostgreSQL Command Cheatsheet
-description: Essential PostgreSQL commands for database management
+description: PostgreSQL is a powerful, open source object-relational database system.
 ---
 
 
-A comprehensive reference for PostgreSQL database commands.
+PostgreSQL is a powerful, open source object-relational database system.
+
 
 ## Connection
 

@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: NEAR CLI Cheatsheet
-description: Essential commands for NEAR Protocol development and operations
+description: NEAR CLI is a Node.js command-line interface that enables you to interact with the NEAR Protocol blockchain.
 ---
 
 
-Essential commands for NEAR Protocol development and operations.
+NEAR CLI is a Node.js command-line interface that enables you to interact with the NEAR Protocol blockchain.
+
 
 ## Installation
 

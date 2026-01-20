@@ -1,11 +1,12 @@
 ---
 layout: cheatsheet
 title: Zsh Cheatsheet
-description: Essential Zsh commands, configuration, and tips
+description: Zsh is a shell designed for interactive use, although it is also a powerful scripting language.
 ---
 
 
-A comprehensive reference for Z Shell (zsh) configuration and usage.
+Zsh is a shell designed for interactive use, although it is also a powerful scripting language.
+
 
 ## Configuration (.zshrc)
 
