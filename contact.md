@@ -8,7 +8,7 @@ Kalau kamu punya pertanyaan, saran, atau sekadar ingin menyapa, jangan ragu untu
 
 Kamu bisa menghubungi saya lewat email di:
 
-**[iqbwl@silent.web.id](mailto:iqbwl@silent.web.id)**
+**[iqbwl@ani.web.id](mailto:iqbwl@ani.web.id)**
 
 Saya usahakan membalas semua email dalam waktu 24-48 jam.
 
